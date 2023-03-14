@@ -625,10 +625,9 @@
                             <ul class="d-flex justify-content-between justify-content-center">
                                 {%- for link in section.settings.menu.links -%}
                                 <li class="px-1 ">
-                                  
+                                  {%- if link.url != blank -%}
                                     <a class="" href="{{ link.url }}">{{ link.title | escape }}</a>
-                                  
-                                    
+                                  {%- endif -%}
                                   </li>
                                 {%- endfor -%}                            
                             </ul>
