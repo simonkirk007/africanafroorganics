@@ -619,22 +619,22 @@
                     </div>
                     <div class="col-md-5">
                       {%- if section.settings.menu != blank -%}
-                            
+                            {%- if section.settings.menu_type_desktop == 'dropdown' -%}
                         <div class="hdr-nav">
 
                             <ul class="d-flex justify-content-between justify-content-center">
                                 {%- for link in section.settings.menu.links -%}
                                 <li class="px-1 ">
-                                  {%- if link.links != blank -%}
+                                  
                                     <a class="" href="{{ link.url }}">{{ link.title | escape }}</a>
-                                  {%- endif -%}
+                                  
                                   </li>
                                 {%- endfor -%}                            
                             </ul>
 
                         </div>
 
-                      
+                      {%- endif -%}
                     {%- endif -%}
 
                     </div>
