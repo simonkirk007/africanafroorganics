@@ -678,7 +678,7 @@
                 <div class="row align-items-center">
                     <div class="col-md-3">
                         <div class="header-main">
-                            <a href="index.php" class="header-main-logo">
+                            <a href="/" class="header-main-logo">
                               {%- if settings.logo != blank -%}
                                   {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
                                   {%- assign logo_height = settings.logo_width | divided_by: settings.logo.aspect_ratio -%}
@@ -692,7 +692,6 @@
                                 {%- else -%}
                                   <span class="h2">{{ shop.name }}</span>
                                 {%- endif -%}
-                                <img src="assets/images/logo.png" alt="Logo">
                             </a>
                         </div>
                     </div>
