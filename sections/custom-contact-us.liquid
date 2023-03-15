@@ -41,7 +41,19 @@
                             id="ContactForm-name"
                             name="contact[{{ 'templates.contact.form.name' | t }}]"
                             value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
-                            placeholder="{{ 'templates.contact.form.name' | t }}"
+                            placeholder="ENTER NAME:"
+                          >
+                        
+                        </div>
+                        <div class="col-md-6">
+                          <input
+                            class="field__input"
+                            autocomplete="lastname"
+                            type="text"
+                            id="ContactForm-lastname"
+                            name="contact[{{ 'templates.contact.form.lastname' | t }}]"
+                            value="{% if form.lastname %}{{ form.lastname }}{% elsif customer %}{{ customer.lastname }}{% endif %}"
+                            placeholder="LAST NAME:"
                           >
                         
                         </div>
@@ -60,7 +72,7 @@
                               aria-invalid="true"
                               aria-describedby="ContactForm-email-error"
                             {% endif %}
-                            placeholder="{{ 'templates.contact.form.email' | t }}"
+                            placeholder="ENTER EMAIL:"
                           >
                         
                           {%- if form.errors contains 'email' -%}
@@ -84,14 +96,14 @@
                           name="contact[{{ 'templates.contact.form.phone' | t }}]"
                           pattern="[0-9\-]*"
                           value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
-                          placeholder="{{ 'templates.contact.form.phone' | t }}"
+                          placeholder="ENTER PHONE:"
                         >
-                        <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
+                        
                                             </div>
                                             <div class="col-md-12">
                         <textarea rows="10" id="ContactForm-body" class="text-area field__input"
                           name="contact[{{ 'templates.contact.form.comment' | t }}]"
-                          placeholder="{{ 'templates.contact.form.comment' | t }}"
+                          placeholder="MESSAGE:"
                         >
                           {{- form.body -}}
                         </textarea>
@@ -99,7 +111,7 @@
                                             </div>
                                             <div class="col-md-12">
                                             <div class="form1-btn">
-                        <button type="submit" class="button">{{ 'templates.contact.form.send' | t }}</button>
+                        <button type="submit" class="button">Submit Now</button>
                                             </div>
                                             </div>
                       </div>
