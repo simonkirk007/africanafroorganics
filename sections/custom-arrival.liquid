@@ -30,14 +30,16 @@
 
                         </ul>
                     </div>
-                    <h6> 
-                    {% if product.compare_at_price > product.price %}
-                      <span>{{ product.price | money }}</span>
-                      <del>{{ product.compare_at_price | money }}</del>
-                    {% else %}
-                      <span>{{ product.price | money }}</span>
-                    {% endif %}
-                    </h6>
+                   
+                    <div class="price">
+                      {% if product.compare_at_price > product.price %}
+                        <span>{{ product.price | money }}</span>
+                        <del>{{ product.compare_at_price | money }}</del>
+                      {% else %}
+                        <span>{{ product.price | money }}</span>
+                      {% endif %}
+                    </div>
+                  
                     <div class="arrival-btn">
                         <a href="{{ product.url }}" class="btn-1" href="">DISCOVER</a>
                     </div>
