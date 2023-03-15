@@ -9,11 +9,11 @@
             {%- for block in section.blocks -%}
             <div class="insta-item">
                 <div class="insta-img">
-                   <a href="{{ block.settings.link_url }}"><img src="{{ block.settings.image_insta | | image_url: width: 500 }}" alt=""></a>
+                   <a href="{{ block.settings.link_url }}"><img src="{{ block.settings.image_insta | img_url }}" alt=""></a>
                 </div>
             </div>
           {%- endfor -%}
-            
+           
         </div>
         <div class="insta-btn text-center mt-5">
             <a class="btn-1" href="{{ section.settings.link_url }}">{{ section.settings.link_title }}</a>
