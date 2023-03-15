@@ -1,0 +1,14 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "page_title": "",
+        "banner_img": "shopify:\/\/shop_images\/main-banner_4640cadc-2673-4c46-aa64-2704d774fb88.png"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
