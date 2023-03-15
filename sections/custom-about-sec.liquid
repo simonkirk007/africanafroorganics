@@ -1,0 +1,109 @@
+<section class="about">
+    <div class="container">
+        <div class="row ">
+            <div class="col-md-6">
+                <div class="about-img">
+                    <img src="{{ section.settings.image | img_url: 'master' }}" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="about-content">
+                    <h6>{{ section.settings.sub_heading | escape }}</h6>
+                    <h3>{{ section.settings.title | escape }}</h3>
+                    {{ section.settings.content }}
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            {%- for block in section.blocks -%}
+            <div class="col-md-12">
+                <div class="about-content mt-5">
+                    <h6>{{ block.settings.sub_heading | escape }}</h6>
+                    <h3>{{ block.settings.title | escape}}</h3>
+                    {{ block.settings.content }}
+                </div>
+            </div>
+          {%- endfor -%}
+
+            
+        </div>
+        
+    </div>
+  </div>
+
+</section>
+
+
+{% schema %}
+{
+  "name": "Custom About",
+  "tag": "section",
+  "class": "announcement-bar-section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+    },
+    {
+      "type": "text",
+      "id": "sub_heading",
+      "default": "Collections",
+      "label": "Sub Heading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Collections",
+      "label": "Title"
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "default": "<p>Collections</p>",
+      "label": "Content"
+    }
+],
+"blocks": [
+      {
+        "type": "column",
+        "name": "t:sections.multicolumn.blocks.column.name",
+        "settings": [
+          {
+            "type": "text",
+            "id": "sub_heading",
+            "default": "Collections",
+            "label": "Sub Heading"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "default": "Collections",
+            "label": "Title"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "default": "<p>Collections</p>",
+            "label": "Content"
+          }
+          
+        ]
+      }
+    ],
+"presets": [
+    {
+      "name": "Custom About",
+      "blocks": [
+          {
+            "type": "column"
+          },
+          {
+            "type": "column"
+          }
+        ]
+    }
+  ]
+}
+{% endschema %}
