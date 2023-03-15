@@ -3,12 +3,12 @@
         <div class="row align-items-center">
             <div class="col-12 col-lg-12">
                 <div class="banner-content">
-                  {% if section.settings.page_title !==blank %}
+                  {% if section.settings.page_title !=blank %}
                     <h2>{{ section.settings.page_title }}</h2>
                   {% else %}
                     {{ page.title | escape }}
                   {% endif %}
-                  
+
                 </div>
             </div>
         </div>
