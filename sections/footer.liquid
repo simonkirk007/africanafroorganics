@@ -77,7 +77,7 @@
                      
                         <h6>{{ section.settings.menu_title }}</h6>
                         {%- if section.settings.footer_menu != blank -%}
-                            {%- if section.settings.menu_type_desktop == 'dropdown' -%}
+                            
                         <ul>
                           {%- for link in section.settings.footer_menu.links -%}
                             <li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>
@@ -86,7 +86,7 @@
                             
     
                         </ul>
-                      {%- endif -%}
+                      
                     {%- endif -%}
 
 
