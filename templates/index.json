@@ -12,9 +12,17 @@
         "button_right": "Contact us",
         "button_right_link": "shopify:\/\/collections"
       }
+    },
+    "9a3294f1-f0a8-471f-837b-b3365b191e84": {
+      "type": "custom-arrival",
+      "settings": {
+        "title": "Collections",
+        "collection": "frontpage"
+      }
     }
   },
   "order": [
-    "028c73f7-e91b-41f4-be2c-48308ba38ee9"
+    "028c73f7-e91b-41f4-be2c-48308ba38ee9",
+    "9a3294f1-f0a8-471f-837b-b3365b191e84"
   ]
 }
