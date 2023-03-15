@@ -1,0 +1,142 @@
+<section class="best-seller" style="background-image: url(assets/images/best-seeller-bg.png);">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5">
+                <div class="best-seller-img">
+                    <img src="{{ section.settings.image | image_url }}" alt="">
+                </div>
+            </div>
+            <div class="col-md-7">
+                <div class="best-seller-slider">
+
+                {%- for block in section.blocks -%}
+                    <div class="best-seeller-item">
+                        <div class="best-seeller-inner-item">
+                            <h3>{{ block.settings.title | escape }}</h3>
+                            <img src="{{ block.settings.image | image_url }}" alt="">
+                            {{ block.settings.title }}
+                        </div>
+                        <div class="best-seller-content">
+                            <h2>{{ block.settings.title_right_top }}</h2>
+                            <h3>{{ block.settings.title_product }}</h3>
+                            <h5>{{ block.settings.sub_heading }}</h5>
+                            {% comment %}
+                            <div class="rating">
+                                <ul>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                    <li><i class="fa fa-star"></i></li>
+                                </ul>
+                            </div>
+                            <h6>3943 Reveiws</h6>
+                            {% endcomment %}  
+                            <div class="best-seller-btn">
+                                <a class="btn-1" href="{{ block.settings.link_url }}"><i class="fas fa-shopping-bag  pe-md-3"></i> {{ block.settings.link_title }}</a>
+                            </div>
+                        </div>
+                    </div>
+                    {%- endfor -%}
+
+
+  
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Custom Best Seller",
+  "tag": "section",
+  "class": "announcement-bar-section",
+  "settings": [
+        {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Main Image"
+    }
+],
+"blocks": [
+      {
+        "type": "column",
+        "name": "t:sections.multicolumn.blocks.column.name",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "default": "Collections",
+            "label": "Title"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "default": "<p>Collections</p>",
+            "label": "Content"
+          },
+          {
+            "type": "text",
+            "id": "title_right_top",
+            "default": "Collections",
+            "label": "Main Title"
+          },
+          {
+            "type": "text",
+            "id": "title_product",
+            "default": "Collections",
+            "label": "Product Title"
+          },
+          {
+            "type": "text",
+            "id": "sub_heading",
+            "default": "Collections",
+            "label": "Sub Title"
+          },
+          {
+            "type": "text",
+            "id": "link_title",
+            "default": "Collections",
+            "label": "Button Title"
+          },
+          {
+            "type": "url",
+            "id": "link_url",
+            "default": "Collections",
+            "label": "Button URL"
+          }
+          
+        ]
+      }
+    ],
+"presets": [
+    {
+      "name": "Custom Best Seller",
+      "blocks": [
+          {
+            "type": "column"
+          },
+          {
+            "type": "column"
+          },
+          {
+            "type": "column"
+          },
+          {
+            "type": "column"
+          }, {
+            "type": "column"
+          }, {
+            "type": "column"
+          }
+        ]
+    }
+  ]
+}
+{% endschema %}
