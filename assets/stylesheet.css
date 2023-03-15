@@ -26,4 +26,16 @@ body {
 .arrival-content h3 a:hover {
     text-decoration: unset;
     color: #000;
-  }
+}
+  .arrival-content .price {
+    border: unset;
+    padding: 0;
+    margin: 10px auto;
+    justify-content: space-evenly;
+    font-size: 18px;
+    color: #000;
+}
+
+.arrival-content .price del {
+    text-decoration: line-through !important;
+}
