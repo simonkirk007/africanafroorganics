@@ -8,6 +8,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
+            "text_left": "Welcome to our store",
+            "phone_left": "850-660-3983"
           }
         }
       },
