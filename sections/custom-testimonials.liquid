@@ -1,0 +1,141 @@
+
+<section class="testimonials" style="background-image: url({{ 'best-seeller-bg.png' | asset_url }});">
+    <div class="container">
+        <div class="title text-white py-5">
+            <h3 class="pb-0">{{ section.settings.title }}</h3>
+            <p class="mt-3">{{ section.settings.content }}</p>
+        </div>
+        <div class="test-slider">
+
+        {%- for block in section.blocks -%}
+
+            <div class="test-item">
+                <div class="test-inner-item">
+                    <div class="test-img">
+                        <img src="{{ block.settings.image }}" alt="">
+                    </div>
+                    <div class="rating">
+                        <ul>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star no"></i></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="test-content">
+                    <h3>{{ block.settings.title | escape }}</h3>
+                    {{ block.settings.content }}
+                </div>
+            </div>
+          {%- endfor -%}
+            
+
+
+        </div>
+    </div>
+</section>
+
+<section class="best-seller collection">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="best-seller-img">
+                    <img src="{{ section.settings.image | image_url }}" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="best-seller-slider">
+
+                  {%- for block in section.blocks -%}
+                    <div class="best-seeller-item collection-item">
+                        <h6><a href="{{ block.settings.link_url_2 }}">{{ block.settings.link_title_2 }}</a></h6>
+                        <h3>{{ block.settings.title | escape }}</h3>
+                        {{ block.settings.content }}
+                        <div class="collection-btn">
+                            <a href="{{ block.settings.link_url }}" class="btn-1">{{ block.settings.link_title }}</a>
+                        </div>
+                    </div>
+                  {%- endfor -%}
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+{% schema %}
+{
+  "name": "Custom Testimonials",
+  "tag": "section",
+  "class": "announcement-bar-section",
+  "settings": [
+        {
+      "type": "text",
+      "id": "title",
+      "default": "Collections",
+      "label": "Title"
+    },
+    {
+      "type": "text",
+      "id": "content",
+      "default": "Collections",
+      "label": "Content"
+    }
+],
+"blocks": [
+      {
+        "type": "column",
+        "name": "t:sections.multicolumn.blocks.column.name",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "default": "Collections",
+            "label": "Title"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "default": "<p>Collections</p>",
+            "label": "Content"
+          }
+          
+        ]
+      }
+    ],
+"presets": [
+    {
+      "name": "Custom Testimonials",
+      "blocks": [
+          {
+            "type": "column"
+          },
+          {
+            "type": "column"
+          },
+          {
+            "type": "column"
+          },
+          {
+            "type": "column"
+          }, {
+            "type": "column"
+          }, {
+            "type": "column"
+          }
+        ]
+    }
+  ]
+}
+{% endschema %}
