@@ -76,15 +76,20 @@
                     <div class="footer__nav">
                       {{ section.settings.menu }}
                         <h6>{{ section.settings.menu_title }}</h6>
+                        {%- if section.settings.menu != blank -%}
+                            {%- if section.settings.menu_type_desktop == 'dropdown' -%}
                         <ul>
-                            <li><a href="#">Lorem Ipsum Dolor</a></li>
-                            <li><a href="#">Lorem Ipsum Dolor</a></li>
-                            <li><a href="#">Lorem Ipsum Dolor</a></li>
-                            <li><a href="#">Lorem Ipsum Dolor</a></li>
-                            <li><a href="#">Lorem Ipsum Dolor</a></li>
-                            <li><a href="#">Lorem Ipsum Dolor</a></li>
+                          {%- for link in section.settings.menu.links -%}
+                            <li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>
+                          {%- endfor -%}                            
+
+                            
     
                         </ul>
+                      {%- endif -%}
+                    {%- endif -%}
+
+
                     </div>
                 </div>
                 <div class="col-12 col-lg-3 ">
