@@ -6,9 +6,41 @@
         "page_title": "",
         "banner_img": "shopify:\/\/shop_images\/main-banner_4640cadc-2673-4c46-aa64-2704d774fb88.png"
       }
+    },
+    "d2c58a28-e37e-44b3-9f56-a20e6a55232a": {
+      "type": "custom-about-sec",
+      "blocks": {
+        "template--18241339818266__d2c58a28-e37e-44b3-9f56-a20e6a55232a-1678880670b17fee64-0": {
+          "type": "column",
+          "settings": {
+            "sub_heading": "OUR products",
+            "title": "As Unique As You Are",
+            "content": "<p>We value individuality and recognize that no two heads of hair are alike, so we've created a wide range of products to complement your own distinct style. Our products are made to work with any hair texture and length, whether it's thick and curly, fine and smooth, long, short, color-treated, or normal. Since fabulous self-expression begins with perfect, healthy hair.<\/p>"
+          }
+        },
+        "template--18241339818266__d2c58a28-e37e-44b3-9f56-a20e6a55232a-1678880670b17fee64-1": {
+          "type": "column",
+          "settings": {
+            "sub_heading": "Our philosophy",
+            "title": "Our Philosophy Is Simple",
+            "content": "<p>Our philosophy is simple: we want to assist you in becoming a \"AFRICAN AFRO QUEEN.\" African Afro is dedicated to creating salon-quality hair care products that are affordable to all and allow you to achieve salon-like results at home. We only ever use all natural and organic products that are cruelty-free and environmentally friendly. Our main focus with each new product launch is healthier hair, which is backed up by comprehensive production research. Our method is simple: we listen, develop, and empower women all over the world. <br\/> Our All Natural & Organic Products improve the appearance, health, and texture of your hair while also adding a touch of luxury to your everyday styling routine. Our philosophy represents the high quality of our products, the best possible hair health, and your complete 100% satisfaction. We support you in evolving into a better version of yourself.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18241339818266__d2c58a28-e37e-44b3-9f56-a20e6a55232a-1678880670b17fee64-0",
+        "template--18241339818266__d2c58a28-e37e-44b3-9f56-a20e6a55232a-1678880670b17fee64-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/about-img.png",
+        "sub_heading": "OUR STORY",
+        "title": "Welcome To African Afro Queen!",
+        "content": "<p>African Afro high-quality premium products are the innovation of Kimberly Jefferson, who was born in Pensacola, FL. Kimberly is all too familiar with the daily struggles we all experience with our hair. Spending endless hours battling unruly, frizzy, and damaged hair was not an option. She always thought to herself: \"There has to be a better way. Daily hairstyling should be easy.\"Kimberly decided to research solutions for herself to find the most natural products available. She discovered an industry that fascinated her and launched her first business venture, marketing and developing products for family and friends. By 2019, she knew the time had come to launch her own brand, and African Afro was born.<\/p>"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "d2c58a28-e37e-44b3-9f56-a20e6a55232a"
   ]
 }
