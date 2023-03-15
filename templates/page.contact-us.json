@@ -3,10 +3,18 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "page_title": ""
+      }
+    },
+    "b19b4124-7a9f-43f4-82be-9ca852034f8c": {
+      "type": "custom-contact-us",
+      "settings": {
+        "title": "Collections"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "b19b4124-7a9f-43f4-82be-9ca852034f8c"
   ]
 }
