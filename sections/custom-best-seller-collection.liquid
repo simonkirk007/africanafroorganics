@@ -1,0 +1,112 @@
+<section class="best-seller collection">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="best-seller-img">
+                    <img src="{{ section.settings.image | image_url }}" alt="">
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="best-seller-slider">
+
+                  {%- for block in section.blocks -%}
+                    <div class="best-seeller-item collection-item">
+                        <h6><a href="{{ block.settings.link_url_2 }}">{{ block.settings.link_title_2 }}</a></h6>
+                        <h3>{{ block.settings.title | escape }}</h3>
+                        {{ block.settings.content }}
+                        <div class="collection-btn">
+                            <a href="{{ block.settings.link_url }}" class="btn-1">{{ block.settings.link_title }}</a>
+                        </div>
+                    </div>
+                  {%- endfor -%}
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+{% schema %}
+{
+  "name": "Custom Best Seller Collection",
+  "tag": "section",
+  "class": "announcement-bar-section",
+  "settings": [
+        {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Main Image"
+    }
+],
+"blocks": [
+      {
+        "type": "column",
+        "name": "t:sections.multicolumn.blocks.column.name",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "default": "Collections",
+            "label": "Title"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "default": "<p>Collections</p>",
+            "label": "Content"
+          },
+     
+          {
+            "type": "text",
+            "id": "link_title",
+            "default": "Collections",
+            "label": "Button Title"
+          },
+          {
+            "type": "url",
+            "id": "link_url",
+            "label": "Button URL"
+          }
+          {
+            "type": "text",
+            "id": "link_title_2",
+            "default": "Collections",
+            "label": "Button Title 2"
+          },
+          {
+            "type": "url",
+            "id": "link_url_2",
+            "label": "Button URL 2"
+          }
+          
+        ]
+      }
+    ],
+"presets": [
+    {
+      "name": "Custom Best Seller Collection",
+      "blocks": [
+          {
+            "type": "column"
+          },
+          {
+            "type": "column"
+          },
+          {
+            "type": "column"
+          },
+          {
+            "type": "column"
+          }, {
+            "type": "column"
+          }, {
+            "type": "column"
+          }
+        ]
+    }
+  ]
+}
+{% endschema %}
