@@ -100,6 +100,71 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/collection-img.png"
       }
+    },
+    "53c44e59-bfee-484f-ae9e-91f9841fc17e": {
+      "type": "custom-testimonials",
+      "blocks": {
+        "template--18227249381658__53c44e59-bfee-484f-ae9e-91f9841fc17e-1678869013d571a2c8-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/feed-img-3.png",
+            "title": "Steve Phillips",
+            "content": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Exercitation veniam  onsequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia<\/p>"
+          }
+        },
+        "template--18227249381658__53c44e59-bfee-484f-ae9e-91f9841fc17e-1678869013d571a2c8-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/feed-img-1.png",
+            "title": "Alicia Kennedy",
+            "content": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Exercitation veniam  onsequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia<\/p>"
+          }
+        },
+        "template--18227249381658__53c44e59-bfee-484f-ae9e-91f9841fc17e-1678869013d571a2c8-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/feed-img-2.png",
+            "title": "Chris Frazier",
+            "content": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Exercitation veniam  onsequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia<\/p>"
+          }
+        },
+        "template--18227249381658__53c44e59-bfee-484f-ae9e-91f9841fc17e-1678869013d571a2c8-3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/feed-img-3.png",
+            "title": "Steve Phillips",
+            "content": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Exercitation veniam  onsequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia<\/p>"
+          }
+        },
+        "template--18227249381658__53c44e59-bfee-484f-ae9e-91f9841fc17e-1678869013d571a2c8-4": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/feed-img-1.png",
+            "title": "Alicia Kennedy",
+            "content": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Exercitation veniam  onsequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia<\/p>"
+          }
+        },
+        "template--18227249381658__53c44e59-bfee-484f-ae9e-91f9841fc17e-1678869013d571a2c8-5": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/feed-img-2.png",
+            "title": "Chris Frazier",
+            "content": "<p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.Exercitation veniam  onsequat sunt nostrud amet. Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18227249381658__53c44e59-bfee-484f-ae9e-91f9841fc17e-1678869013d571a2c8-0",
+        "template--18227249381658__53c44e59-bfee-484f-ae9e-91f9841fc17e-1678869013d571a2c8-1",
+        "template--18227249381658__53c44e59-bfee-484f-ae9e-91f9841fc17e-1678869013d571a2c8-2",
+        "template--18227249381658__53c44e59-bfee-484f-ae9e-91f9841fc17e-1678869013d571a2c8-3",
+        "template--18227249381658__53c44e59-bfee-484f-ae9e-91f9841fc17e-1678869013d571a2c8-4",
+        "template--18227249381658__53c44e59-bfee-484f-ae9e-91f9841fc17e-1678869013d571a2c8-5"
+      ],
+      "settings": {
+        "title": "Our Customer Feedback",
+        "content": "Don’t take our word for it. Trust our customers"
+      }
     }
   },
   "order": [
@@ -107,6 +172,7 @@
     "9a3294f1-f0a8-471f-837b-b3365b191e84",
     "2c22d97f-748a-452c-b5d1-7aec976af10b",
     "3670c7dd-1c87-41b6-992e-49c1280667b1",
-    "7b27e148-d40a-4030-a43f-92c2c4f7a6fc"
+    "7b27e148-d40a-4030-a43f-92c2c4f7a6fc",
+    "53c44e59-bfee-484f-ae9e-91f9841fc17e"
   ]
 }
