@@ -392,7 +392,7 @@ body,
 }
 
 .text-body {
-  font-size: 1.5rem;
+  font-size: 16px;
   letter-spacing: 0.06rem;
   line-height: calc(1 + 0.8 / var(--font-body-scale));
   font-family: var(--font-body-family);
