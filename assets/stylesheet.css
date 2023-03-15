@@ -4,12 +4,12 @@ body {
 
 .search-bar input {
     padding: 10px 10px !important;
-    padding-left: 0px !important;
+    padding-left: 15px !important;
     padding-right: 36px !important;
 }
 .search-bar input:focus {
     padding: 10px 10px !important;
-    padding-left: 0px !important;
+    padding-left: 15px !important;
     padding-right: 36px !important;
 }
 .search-bar input::placeholder {
@@ -58,4 +58,7 @@ body {
 
 .newsletter-form__field-wrapper input.field__input:focus {
     padding: 1.5rem;
+}
+button.search__button.field__button{
+    height: 36px;
 }
