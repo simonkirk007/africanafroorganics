@@ -684,13 +684,12 @@
                       <span class="predictive-search-status visually-hidden" role="status" aria-hidden="true"></span>
                     {%- endif -%}
                   </form>
-                                <input type="text" placeholder="Search here">
-                                <i class="far fa-search"></i>
+                                
                             </div>
                             <div class="main-hdr-icon">
 
-                                <a href="cart.php"><i class="fas fa-shopping-bag  px-md-3"></i></a>
-                                <a href="login.php"><i class="fal fa-sign-in"></i></a>
+                                <a href="/cart"><i class="fas fa-shopping-bag  px-md-3"></i></a>
+                                <a href="{%- if customer -%}{{ routes.account_url }}{%- else -%}{{ routes.account_login_url }}{%- endif -%}"><i class="fal fa-sign-in"></i></a>
 
                             </div>
                         </div>
