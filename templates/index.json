@@ -186,24 +186,28 @@
         "template--18227249381658__9ab47fb8-902b-424a-8536-d95f1b8ae8f4-167886956201e1fa69-2": {
           "type": "column",
           "settings": {
+            "image_insta": "shopify:\/\/shop_images\/insta-img-3.png",
             "link_url": "#"
           }
         },
         "template--18227249381658__9ab47fb8-902b-424a-8536-d95f1b8ae8f4-167886956201e1fa69-3": {
           "type": "column",
           "settings": {
+            "image_insta": "shopify:\/\/shop_images\/insta-img-5.png",
             "link_url": "#"
           }
         },
         "template--18227249381658__9ab47fb8-902b-424a-8536-d95f1b8ae8f4-167886956201e1fa69-4": {
           "type": "column",
           "settings": {
+            "image_insta": "shopify:\/\/shop_images\/insta-img-2.png",
             "link_url": "#"
           }
         },
         "template--18227249381658__9ab47fb8-902b-424a-8536-d95f1b8ae8f4-167886956201e1fa69-5": {
           "type": "column",
           "settings": {
+            "image_insta": "shopify:\/\/shop_images\/insta-img-6.png",
             "link_url": "#"
           }
         }
@@ -221,63 +225,6 @@
         "link_title": "View instagram",
         "link_url": "#"
       }
-    },
-    "3d14d4ef-c7c1-4669-8476-e80aa022b3ee": {
-      "type": "custom-instagram",
-      "blocks": {
-        "template--18227249381658__3d14d4ef-c7c1-4669-8476-e80aa022b3ee-1678869999ddc5559c-0": {
-          "type": "column",
-          "settings": {
-            "image_insta": "shopify:\/\/shop_images\/insta-img-2.png",
-            "link_url": ""
-          }
-        },
-        "template--18227249381658__3d14d4ef-c7c1-4669-8476-e80aa022b3ee-1678869999ddc5559c-1": {
-          "type": "column",
-          "settings": {
-            "image_insta": "shopify:\/\/shop_images\/insta-img-3.png",
-            "link_url": ""
-          }
-        },
-        "template--18227249381658__3d14d4ef-c7c1-4669-8476-e80aa022b3ee-1678869999ddc5559c-2": {
-          "type": "column",
-          "settings": {
-            "image_insta": "shopify:\/\/shop_images\/insta-img-5.png",
-            "link_url": ""
-          }
-        },
-        "template--18227249381658__3d14d4ef-c7c1-4669-8476-e80aa022b3ee-1678869999ddc5559c-3": {
-          "type": "column",
-          "settings": {
-            "link_url": ""
-          }
-        },
-        "template--18227249381658__3d14d4ef-c7c1-4669-8476-e80aa022b3ee-1678869999ddc5559c-4": {
-          "type": "column",
-          "settings": {
-            "link_url": ""
-          }
-        },
-        "template--18227249381658__3d14d4ef-c7c1-4669-8476-e80aa022b3ee-1678869999ddc5559c-5": {
-          "type": "column",
-          "settings": {
-            "link_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--18227249381658__3d14d4ef-c7c1-4669-8476-e80aa022b3ee-1678869999ddc5559c-0",
-        "template--18227249381658__3d14d4ef-c7c1-4669-8476-e80aa022b3ee-1678869999ddc5559c-1",
-        "template--18227249381658__3d14d4ef-c7c1-4669-8476-e80aa022b3ee-1678869999ddc5559c-2",
-        "template--18227249381658__3d14d4ef-c7c1-4669-8476-e80aa022b3ee-1678869999ddc5559c-3",
-        "template--18227249381658__3d14d4ef-c7c1-4669-8476-e80aa022b3ee-1678869999ddc5559c-4",
-        "template--18227249381658__3d14d4ef-c7c1-4669-8476-e80aa022b3ee-1678869999ddc5559c-5"
-      ],
-      "settings": {
-        "title": "Collections",
-        "link_title": "Collections",
-        "link_url": ""
-      }
     }
   },
   "order": [
@@ -287,7 +234,6 @@
     "3670c7dd-1c87-41b6-992e-49c1280667b1",
     "7b27e148-d40a-4030-a43f-92c2c4f7a6fc",
     "53c44e59-bfee-484f-ae9e-91f9841fc17e",
-    "9ab47fb8-902b-424a-8536-d95f1b8ae8f4",
-    "3d14d4ef-c7c1-4669-8476-e80aa022b3ee"
+    "9ab47fb8-902b-424a-8536-d95f1b8ae8f4"
   ]
 }
