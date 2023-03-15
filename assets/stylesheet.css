@@ -23,6 +23,9 @@ body {
 .top-bar {
     padding: 10px 0;
 }
+.arrival-content h3 a {
+    font-family: Tenor Sans,sans-serif;
+}
 .arrival-content h3 a:hover {
     text-decoration: unset;
     color: #000;
