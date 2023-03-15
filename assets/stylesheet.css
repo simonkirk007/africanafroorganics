@@ -65,4 +65,16 @@ body {
 }
 button.search__button.field__button{
     height: 36px;
+}form.contact input::placeholder, form.contact textarea::placeholder {
+    opacity: 1;
+    font-size: 18px;
+}
+form.contact textarea::placeholder {
+    font-size: 22px;
+}
+
+form.contact input:focus, form.contact textarea:focus {
+    padding: 15px 10px;
+    border-radius: 7px;
+    margin-bottom: 27px;
 }
