@@ -1,0 +1,79 @@
+<section class="new-arrival">
+    <div class="container">
+        <div class="title">
+            <h3>New Arrivals</h3>
+        </div>
+        <div class="arrival-slider">
+
+        {% assign selected_collection = section.settings.collection %}
+
+        {% for product in collections[selected_collection].products %}
+            <div class="arrival-item">
+                <div class="arrival-inner-item">
+                    <div class="inner-content">
+                        <div class="wishlist">
+                            <h6>NEW</h6>
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                    <a href="{{ product.url }}"><img src="{{ product.featured_image.src | img_url: 'large' }}" alt=""></a>
+                </div>
+                <div class="arrival-content">
+                    <h3><a href="{{ product.url }}">{{ product.title }}</h3></a>
+                    <div class="rating">
+                        <ul>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+
+                        </ul>
+                    </div>
+                    <h6> 
+                    {% if product.compare_at_price > product.price %}
+                      <span>{{ product.price | money }}</span>
+                      <del>{{ product.compare_at_price | money }}</del>
+                    {% else %}
+                      <span>{{ product.price | money }}</span>
+                    {% endif %}
+                    </h6>
+                    <div class="arrival-btn">
+                        <a href="{{ product.url }}" class="btn-1" href="">DISCOVER</a>
+                    </div>
+                </div>
+            </div>
+          {% endfor %}
+           
+          
+           
+            
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Custom Arrival",
+  "tag": "section",
+  "class": "announcement-bar-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Collections",
+      "label": "Title"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "t:sections.featured-collection.settings.collection.label"
+    }
+],
+"presets": [
+    {
+      "name": "Custom Arrival"
+    }
+  ]
+}
+{% endschema %}
