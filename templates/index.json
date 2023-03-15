@@ -57,11 +57,21 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/best-seller.png"
       }
+    },
+    "3670c7dd-1c87-41b6-992e-49c1280667b1": {
+      "type": "custom-product-loop",
+      "settings": {
+        "title": "Our Products",
+        "collection": "frontpage",
+        "link_title": "view all",
+        "link_url": "shopify:\/\/collections"
+      }
     }
   },
   "order": [
     "028c73f7-e91b-41f4-be2c-48308ba38ee9",
     "9a3294f1-f0a8-471f-837b-b3365b191e84",
-    "2c22d97f-748a-452c-b5d1-7aec976af10b"
+    "2c22d97f-748a-452c-b5d1-7aec976af10b",
+    "3670c7dd-1c87-41b6-992e-49c1280667b1"
   ]
 }
