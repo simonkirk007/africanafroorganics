@@ -225,6 +225,61 @@
         "link_title": "View instagram",
         "link_url": "#"
       }
+    },
+    "1e46d23f-1a96-4c1a-aacd-4f4a33829cac": {
+      "type": "custom-insta",
+      "blocks": {
+        "template--18227249381658__1e46d23f-1a96-4c1a-aacd-4f4a33829cac-16788741263f768f96-0": {
+          "type": "column",
+          "settings": {
+            "image_insta": "shopify:\/\/shop_images\/insta-img-6.png",
+            "link_url": ""
+          }
+        },
+        "template--18227249381658__1e46d23f-1a96-4c1a-aacd-4f4a33829cac-16788741263f768f96-1": {
+          "type": "column",
+          "settings": {
+            "link_url": ""
+          }
+        },
+        "template--18227249381658__1e46d23f-1a96-4c1a-aacd-4f4a33829cac-16788741263f768f96-2": {
+          "type": "column",
+          "settings": {
+            "link_url": ""
+          }
+        },
+        "template--18227249381658__1e46d23f-1a96-4c1a-aacd-4f4a33829cac-16788741263f768f96-3": {
+          "type": "column",
+          "settings": {
+            "link_url": ""
+          }
+        },
+        "template--18227249381658__1e46d23f-1a96-4c1a-aacd-4f4a33829cac-16788741263f768f96-4": {
+          "type": "column",
+          "settings": {
+            "link_url": ""
+          }
+        },
+        "template--18227249381658__1e46d23f-1a96-4c1a-aacd-4f4a33829cac-16788741263f768f96-5": {
+          "type": "column",
+          "settings": {
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18227249381658__1e46d23f-1a96-4c1a-aacd-4f4a33829cac-16788741263f768f96-0",
+        "template--18227249381658__1e46d23f-1a96-4c1a-aacd-4f4a33829cac-16788741263f768f96-1",
+        "template--18227249381658__1e46d23f-1a96-4c1a-aacd-4f4a33829cac-16788741263f768f96-2",
+        "template--18227249381658__1e46d23f-1a96-4c1a-aacd-4f4a33829cac-16788741263f768f96-3",
+        "template--18227249381658__1e46d23f-1a96-4c1a-aacd-4f4a33829cac-16788741263f768f96-4",
+        "template--18227249381658__1e46d23f-1a96-4c1a-aacd-4f4a33829cac-16788741263f768f96-5"
+      ],
+      "settings": {
+        "title": "Collections",
+        "link_title": "Collections",
+        "link_url": ""
+      }
     }
   },
   "order": [
@@ -234,6 +289,7 @@
     "3670c7dd-1c87-41b6-992e-49c1280667b1",
     "7b27e148-d40a-4030-a43f-92c2c4f7a6fc",
     "53c44e59-bfee-484f-ae9e-91f9841fc17e",
-    "9ab47fb8-902b-424a-8536-d95f1b8ae8f4"
+    "9ab47fb8-902b-424a-8536-d95f1b8ae8f4",
+    "1e46d23f-1a96-4c1a-aacd-4f4a33829cac"
   ]
 }
