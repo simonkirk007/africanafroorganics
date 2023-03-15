@@ -1,13 +1,18 @@
-{% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
-{{ 'component-collection-hero.css' | asset_url | stylesheet_tag }}
-
-{%- style -%}
-  @media screen and (max-width: 749px) {
-    .collection-hero--with-image .collection-hero__inner {
-      padding-bottom: calc({{ settings.media_shadow_vertical_offset | at_least: 0 }}px + 2rem);
-    }
-  }
-{%- endstyle -%}
+<div class="banner inner-banner" style="background-image: url({% if section.settings.banner_img !=blank %}{{ section.settings.banner_img | img_url: 'master' }} {% else %}{{ 'main-banner.png' | asset_url }}{% endif %});">
+  <div class="container">
+      <div class="row align-items-center">
+          <div class="col-12 col-lg-12">
+              <div class="banner-content">
+                {% if section.settings.page_title !=blank %}
+                  <h2>{{ section.settings.page_title }}</h2>
+                {% else %}
+                  <h2>{{- collection.title | escape -}}</h2>
+                {% endif %}
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
 
 <div class="collection-hero{% if section.settings.show_collection_image and collection.image %} collection-hero--with-image{% endif %} color-{{ section.settings.color_scheme }} gradient">
   <div class="collection-hero__inner page-width">
