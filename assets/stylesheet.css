@@ -42,3 +42,20 @@ body {
 .arrival-content .price del {
     text-decoration: line-through !important;
 }
+.newsletter-form__field-wrapper input.field__input {
+    border-radius: 10px;
+    border: 1px solid #000;
+    padding: 1.5rem;
+}
+
+.newsletter-form__field-wrapper  label.field__label {
+    display: none;
+}
+
+.newsletter-form__field-wrapper input.field__input::placeholder {
+    opacity: 1;
+}
+
+.newsletter-form__field-wrapper input.field__input:focus {
+    padding: 1.5rem;
+}
