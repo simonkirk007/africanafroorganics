@@ -3,7 +3,7 @@
         <div class="row align-items-center">
             <div class="col-12 col-lg-12">
                 <div class="banner-content">
-                  {% if section.settings.page_title %}
+                  {% if section.settings.page_title > 0 %}
                     <h2>{{ section.settings.page_title }}</h2>
                   {% else %}
                     {{ page.title | escape }}
