@@ -66,17 +66,16 @@
             <div class="row">
                 <div class="col-12 col-lg-4 ">
                     <div class="footer-info">
-                        <a href="index.html">
-                            <img src="assets/images/logo.png" alt="Logo" />
+                        <a href="/">
+                            <img src="{{ section.settings.logo | img_url }}" alt="Logo" />
                         </a>
-                        <p>African Afro high-quality premium products are the innovation of Kimberly Jefferson, who was born
-                            in Pensacola, FL. Kimberly is all too familiar with the daily struggles we all experience with
-                            our hair. Spending endless hours battling unruly, frizzy, an</p>
+                        {{ section.settings.content }}
                     </div>
                 </div>
                 <div class="col-12 col-lg-2 ">
                     <div class="footer__nav">
-                        <h6>Quick Links</h6>
+                      {{ section.settings.menu }}
+                        <h6>{{ section.settings.menu_title }}</h6>
                         <ul>
                             <li><a href="#">Lorem Ipsum Dolor</a></li>
                             <li><a href="#">Lorem Ipsum Dolor</a></li>
@@ -90,18 +89,18 @@
                 </div>
                 <div class="col-12 col-lg-3 ">
                     <div class="footer__nav">
-                        <h6>Quick Links</h6>
+                        <h6>{{ section.settings.quick_title }}</h6>
                         <ul>
-                            <li><a href="#">40 W. Nine Mile Rd #2 PMB171</a></li>
-                            <li><a href="tel:850-660-3983">850-660-3983</a></li>
-                            <li><a href="mailto:africanafroorganics@gmail.com">africanafroorganics@gmail.com</a></li>
+                            <li><a href="{{ section.settings.quick_address_link }}">{{ section.settings.quick_address }}</a></li>
+                            <li><a href="tel:{{ section.settings.quick_phone }}">{{ section.settings.quick_phone }}</a></li>
+                            <li><a href="mailto:{{ section.settings.quick_email }}">{{ section.settings.quick_email }}</a></li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-12 col-lg-3">
                     <div class="footer__nav">
-                        <h6>Subscribe</h6>
-                        <h5>We make non-annoying emails!<br>Pop Your Email & we’ll Prove It</h5>
+                        <h6>{{ section.settings.subs_title }}</h6>
+                        <h5>{{ section.settings.subs_content }}</h5>
                         <form action="#" class="footer-form">
                             <input type="email" placeholder="Enter Your Email">
                             <a class="btn-2" href="">Submit</a>
@@ -110,27 +109,28 @@
                 </div>
                 <div class="col-12 ">
                     <div class="footer__copyright">
-                        <p>Copyrights © 2023 africanafro.com - All Rights Reserved.</p>
+                        {{ section.settings.copy_text }}
+            
                         <div class="pay-img">
                             <a href="">
-                                <img src="assets/images/copy-1.png" alt="">
-    
+                                <img src="{{ section.settings.pay_img_1 | img_url }}" alt="">
                             </a>
                             <a href="">
-                                <img src="assets/images/copy-2.png" alt="">
-    
-                            </a> <a href="">
-                                <img src="assets/images/copy-3.png" alt="">
-    
-                            </a> <a href="">
-                                <img src="assets/images/copy-4.png" alt="">
-    
-                            </a> <a href="">
-                                <img src="assets/images/copy-5.png" alt="">
+                                <img src="{{ section.settings.pay_img_2 | img_url }}" alt="">
                             </a>
                             <a href="">
-                                <img src="assets/images/copy-6.png" alt="">
+                                <img src="{{ section.settings.pay_img_3 | img_url }}" alt="">
                             </a>
+                            <a href="">
+                                <img src="{{ section.settings.pay_img_4 | img_url }}" alt="">
+                            </a>
+                            <a href="">
+                                <img src="{{ section.settings.pay_img_5 | img_url }}" alt="">
+                            </a>
+                            <a href="">
+                                <img src="{{ section.settings.pay_img_6 | img_url }}" alt="">
+                            </a>
+                           
                         </div>
                     </div>
                 </div>
@@ -147,22 +147,108 @@
         "class": "footer-bar-section",
         "settings": [
           {
-            "type": "text",
-            "id": "title",
-            "default": "Collections",
-            "label": "Title"
+            "type": "image_picker",
+            "id": "logo",
+            "label": "Logo"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "default": "<p>Collections</p>",
+            "label": "Content"
           },
           {
             "type": "text",
-            "id": "link_title",
+            "id": "menu_title",
             "default": "Collections",
-            "label": "Button Title"
+            "label": "Menu Title"
+          },
+          {
+            "type": "link_list",
+            "id": "menu",
+            "default": "main-menu",
+            "label": "Menu"
+          },
+          {
+            "type": "text",
+            "id": "quick_title",
+            "default": "Collections",
+            "label": "Quick Title"
+          },
+          {
+            "type": "text",
+            "id": "quick_address",
+            "default": "Collections",
+            "label": "Address"
           },
           {
             "type": "url",
-            "id": "link_url",
-            "label": "Button Link"
+            "id": "quick_address_link",
+            "label": "Address"
+          },
+          {
+            "type": "text",
+            "id": "quick_phone",
+            "default": "Collections",
+            "label": "Phone"
+          },
+          {
+            "type": "text",
+            "id": "quick_email",
+            "default": "Collections",
+            "label": "Email"
+          },
+          {
+            "type": "text",
+            "id": "subs_title",
+            "default": "Collections",
+            "label": "Subscriber Title"
+          },
+          {
+            "type": "text",
+            "id": "subs_content",
+            "default": "Collections",
+            "label": "Subscriber Content"
+          },
+          {
+            "type": "richtext",
+            "id": "copy_text",
+            "default": "<p>Collections</p>",
+            "label": "Copyrights"
+          },
+          {
+            "type": "image_picker",
+            "id": "pay_img_1",
+            "label": "Payment 1"
+          },
+          {
+            "type": "image_picker",
+            "id": "pay_img_2",
+            "label": "Payment 2"
+          },
+          {
+            "type": "image_picker",
+            "id": "pay_img_3",
+            "label": "Payment 3"
+          },
+          {
+            "type": "image_picker",
+            "id": "pay_img_4",
+            "label": "Payment 4"
+          },
+          {
+            "type": "image_picker",
+            "id": "pay_img_5",
+            "label": "Payment 5"
+          },
+          {
+            "type": "image_picker",
+            "id": "pay_img_6",
+            "label": "Payment 6"
           }
+        
+
+
       ],
       "presets": [
           {
