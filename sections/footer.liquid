@@ -84,11 +84,14 @@
                             <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="ContactFooter-success" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
                           {%- endif -%}
                         {%- endform -%}
-
+                        {% comment %}
                         <form action="#" class="footer-form">
                             <input type="email" placeholder="Enter Your Email">
                             <a class="btn-2" href="">Submit</a>
-                        </form>
+                        </form>  
+                        {% endcomment %}
+                        
+                        
                     </div>
                 </div>
                 <div class="col-12 ">
