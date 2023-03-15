@@ -6,11 +6,15 @@ body {
     padding: 10px 10px !important;
     padding-left: 15px !important;
     padding-right: 36px !important;
+    width: 280px;
+    border-radius: 9px;
 }
+
 .search-bar input:focus {
     padding: 10px 10px !important;
     padding-left: 15px !important;
     padding-right: 36px !important;
+    border-radius: 9px;
 }
 .search-bar input::placeholder {
     color: #000;
