@@ -76,17 +76,18 @@
                     <div class="footer__nav">
                      
                         <h6>{{ section.settings.menu_title }}</h6>
-                        {%- if section.settings.footer_menu != blank -%}
-                            
+                        {%- if section.settings.footer_menu -%}
+                        {% assign linklist = section.settings.footer_menu | linklist %}
+                        {% if linklist.links.size > 0 %}
                         <ul>
-                          {%- for link in section.settings.footer_menu.links -%}
+                          {% for link in linklist.links %}
                             <li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>
                           {%- endfor -%}                            
 
                             
     
                         </ul>
-                      
+                      {% endif %}
                     {%- endif -%}
 
 
