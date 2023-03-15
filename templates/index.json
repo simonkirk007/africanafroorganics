@@ -19,10 +19,49 @@
         "title": "New Arrivals",
         "collection": "frontpage"
       }
+    },
+    "2c22d97f-748a-452c-b5d1-7aec976af10b": {
+      "type": "custom-best-seller",
+      "blocks": {
+        "template--18227249381658__2c22d97f-748a-452c-b5d1-7aec976af10b-1678867004b8d9c45d-0": {
+          "type": "column",
+          "settings": {
+            "title": "Your Title Here",
+            "image": "shopify:\/\/shop_images\/best-seller-img1.png",
+            "content": "<p>Our Professional Natural Hair and Skin Care Products are collections created by us, inspired by us, and produced specifically for us since NO ONE <\/p>",
+            "title_right_top": "BEST <br> Sellers",
+            "title_product": "Your Title Here",
+            "sub_heading": "30ML\/1 FL OZ",
+            "link_title": "Add To Cart",
+            "link_url": "shopify:\/\/collections"
+          }
+        },
+        "template--18227249381658__2c22d97f-748a-452c-b5d1-7aec976af10b-1678867004b8d9c45d-1": {
+          "type": "column",
+          "settings": {
+            "title": "Your Title Here",
+            "image": "shopify:\/\/shop_images\/best-seller-img1.png",
+            "content": "<p>Our Professional Natural Hair and Skin Care Products are collections created by us,inspired by us, and produced specifically for us since NO ONE <\/p>",
+            "title_right_top": "BEST <br> Sellers",
+            "title_product": "Your Title Here",
+            "sub_heading": "30ML\/1 FL OZ",
+            "link_title": "Add To Cart",
+            "link_url": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "template--18227249381658__2c22d97f-748a-452c-b5d1-7aec976af10b-1678867004b8d9c45d-0",
+        "template--18227249381658__2c22d97f-748a-452c-b5d1-7aec976af10b-1678867004b8d9c45d-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/best-seller.png"
+      }
     }
   },
   "order": [
     "028c73f7-e91b-41f4-be2c-48308ba38ee9",
-    "9a3294f1-f0a8-471f-837b-b3365b191e84"
+    "9a3294f1-f0a8-471f-837b-b3365b191e84",
+    "2c22d97f-748a-452c-b5d1-7aec976af10b"
   ]
 }
