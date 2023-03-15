@@ -179,6 +179,7 @@
         "template--18227249381658__9ab47fb8-902b-424a-8536-d95f1b8ae8f4-167886956201e1fa69-1": {
           "type": "column",
           "settings": {
+            "image_insta": "shopify:\/\/shop_images\/insta-img-5.png",
             "link_url": "#"
           }
         },
