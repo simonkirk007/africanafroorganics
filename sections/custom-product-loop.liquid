@@ -1,0 +1,140 @@
+<section class="our-product">
+    <div class="container">
+        <div class="title text-center">
+            <h3>{{ section.settings.title }}</h3>
+        </div>
+        <div class="row">
+          
+            <div class="col-md-3">
+                <div class="arrival-item">
+                    <div class="arrival-inner-item">
+                        <div class="inner-content">
+                            <div class="wishlist">
+                                <h6>NEW</h6>
+                                <i class="far fa-heart"></i>
+                            </div>
+                        </div>
+                        <img src="assets/images/arrival-img-1.png" alt="">
+                    </div>
+                    <div class="arrival-content">
+                        <h3>MOROCCAN SCALP & HAIR GROWTH OIL</h3>
+                        <div class="rating">
+                            <ul>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+                                <li><i class="fa fa-star"></i></li>
+
+                            </ul>
+                        </div>
+                        <h6>$ 16.95</h6>
+                        <div class="arrival-btn">
+                            <a class="btn-1" href="">DISCOVER</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+</section>
+
+
+<section class="new-arrival">
+    <div class="container">
+        <div class="title text-center">
+            <h3>{{ section.settings.title | escape }}</h3>
+        </div>
+        <div class="arrival-slider">
+
+        {% assign selected_collection = section.settings.collection %}
+
+        {% for product in collections[selected_collection].products %}
+            <div class="arrival-item">
+                <div class="arrival-inner-item">
+                    <div class="inner-content">
+                        <div class="wishlist">
+                            <h6>NEW</h6>
+                            <i class="far fa-heart"></i>
+                        </div>
+                    </div>
+                    <a href="{{ product.url }}"><img src="{{ product.featured_image.src | img_url: 'large' }}" alt=""></a>
+                </div>
+                <div class="arrival-content">
+                    <h3><a href="{{ product.url }}">{{ product.title }}</h3></a>
+                    <div class="rating">
+                        <ul>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+                            <li><i class="fa fa-star"></i></li>
+
+                        </ul>
+                    </div>
+                   
+                    <div class="price">
+                      {% if product.compare_at_price > product.price %}
+                        <span>{{ product.price | money }}</span>
+                        <del>{{ product.compare_at_price | money }}</del>
+                      {% else %}
+                        <span>{{ product.price | money }}</span>
+                      {% endif %}
+                    </div>
+                  
+                    <div class="arrival-btn">
+                        <a href="{{ product.url }}" class="btn-1" href="">DISCOVER</a>
+                    </div>
+                </div>
+            </div>
+          {% endfor %}
+           
+          
+           
+            
+        </div>
+
+        <div class="product-btn text-center mt-5">
+            <a href="{{ section.settings.link_url }}" class="btn-1" href="">{{ section.settings.link_title }}</a>
+        </div>
+    </div>
+</section>
+
+{% schema %}
+{
+  "name": "Custom Product Loop",
+  "tag": "section",
+  "class": "announcement-bar-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Collections",
+      "label": "Title"
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "t:sections.featured-collection.settings.collection.label"
+    },
+    {
+      "type": "text",
+      "id": "link_title",
+      "default": "Collections",
+      "label": "Button Title"
+    },
+    {
+      "type": "url",
+      "id": "link_url",
+      "label": "Button URL"
+    }
+],
+"presets": [
+    {
+      "name": "Custom Product Loop"
+    }
+  ]
+}
+{% endschema %}
