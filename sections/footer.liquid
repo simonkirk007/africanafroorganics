@@ -76,7 +76,7 @@
                     <div class="footer__nav">
                      
                         <h6>{{ section.settings.menu_title }}</h6>
-                      
+                        {{ section.settings.footer_menu  }}
                         {%- if section.settings.footer_menu -%}
                         {% assign linklist = section.settings.footer_menu | linklist %}
                         {% if linklist.links.size > 0 %}
@@ -173,6 +173,7 @@
           {
             "type": "link_list",
             "id": "footer_menu",
+            "default": "main-menu",
             "label": "Menu"
           },
           {
