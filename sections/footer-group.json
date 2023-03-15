@@ -4,39 +4,25 @@
   "sections": {
     "footer": {
       "type": "footer",
-      "blocks": {
-        "242d8e93-d0f7-434e-9a56-73866683044e": {
-          "type": "text",
-          "settings": {
-            "heading": "Heading",
-            "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-          }
-        },
-        "278c8fa6-4b6f-4c15-9588-47def5ace7e9": {
-          "type": "image",
-          "settings": {
-            "image_width": 100,
-            "alignment": "center"
-          }
-        }
-      },
-      "block_order": [
-        "242d8e93-d0f7-434e-9a56-73866683044e",
-        "278c8fa6-4b6f-4c15-9588-47def5ace7e9"
-      ],
       "settings": {
-        "color_scheme": "background-1",
-        "newsletter_enable": true,
-        "newsletter_heading": "Subscribe to our emails",
-        "enable_follow_on_shop": false,
-        "show_social": true,
-        "enable_country_selector": true,
-        "enable_language_selector": true,
-        "payment_enable": true,
-        "show_policy": false,
-        "margin_top": 48,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "logo": "shopify:\/\/shop_images\/logo.png",
+        "content": "<p>African Afro high-quality premium products are the innovation of Kimberly Jefferson, who was born in Pensacola, FL. Kimberly is all too familiar with the daily struggles we all experience with our hair. Spending endless hours battling unruly, frizzy, an<\/p>",
+        "menu_title": "Quick Links",
+        "menu": "main-menu",
+        "quick_title": "Quick Links",
+        "quick_address": "40 W. Nine Mile Rd #2 PMB171",
+        "quick_address_link": "",
+        "quick_phone": "850-660-3983",
+        "quick_email": "africanafroorganics@gmail.com",
+        "subs_title": "Subscribe",
+        "subs_content": "We make non-annoying emails! Pop Your Email & we’ll Prove It",
+        "copy_text": "<p>Copyrights © 2023 africanafro.com - All Rights Reserved.<\/p>",
+        "pay_img_1": "shopify:\/\/shop_images\/copy-1.png",
+        "pay_img_2": "shopify:\/\/shop_images\/copy-2.png",
+        "pay_img_3": "shopify:\/\/shop_images\/copy-3.png",
+        "pay_img_4": "shopify:\/\/shop_images\/copy-4.png",
+        "pay_img_5": "shopify:\/\/shop_images\/copy-5.png",
+        "pay_img_6": "shopify:\/\/shop_images\/copy-6.png"
       }
     }
   },
