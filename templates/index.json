@@ -7,10 +7,10 @@
         "title": "For The Natural African Beauty",
         "content": "<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...<\/p>",
         "image": "shopify:\/\/shop_images\/main-banner.png",
-        "button_left": "Collections",
-        "button_left_link": "",
-        "button_right": "Collections",
-        "button_right_link": ""
+        "button_left": "SHOP NOW",
+        "button_left_link": "shopify:\/\/collections",
+        "button_right": "Contact us",
+        "button_right_link": "shopify:\/\/collections"
       }
     }
   },
