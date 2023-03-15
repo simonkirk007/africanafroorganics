@@ -1,0 +1,31 @@
+<div class="top-bar">
+        <div class="container">
+            <div class="top-bar-item align-items-center">
+              {%- for block in section.blocks -%}
+                <p class="text-white py-2 m-0">{{ block.settings.text_left | escape }}</p>
+                <a href="tel:{{ block.settings.phone_left | escape }}"><i class="fas fa-phone-alt"></i> Phone : {{ block.settings.phone_left | escape }}</a>
+              {%- endfor -%}
+            </div>
+        </div>
+    </div>
+
+{% schema %}
+{
+  "name": "Custom Banner",
+  "tag": "section",
+  "class": "announcement-bar-section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Collections",
+      "label": "t:sections.collection-list.settings.title.label"
+  }
+],
+"presets": [
+    {
+      "name": "Custom Banner"
+    }
+  ]
+}
+{% endschema %}

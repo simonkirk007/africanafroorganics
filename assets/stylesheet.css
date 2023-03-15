@@ -4,11 +4,13 @@ body {
 
 .search-bar input {
     padding: 10px 10px !important;
-    padding-left: 36px !important;
+    padding-left: 0px !important;
+    padding-right: 36px !important;
 }
 .search-bar input:focus {
     padding: 10px 10px !important;
-    padding-left: 36px !important;
+    padding-left: 0px !important;
+    padding-right: 36px !important;
 }
 .search-bar input::placeholder {
     color: #000;
