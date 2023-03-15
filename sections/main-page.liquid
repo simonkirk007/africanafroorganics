@@ -1,23 +1,20 @@
-<link rel="stylesheet" href="{{ 'section-main-page.css' | asset_url }}" media="print" onload="this.media='all'">
-<link rel="stylesheet" href="{{ 'component-rte.css' | asset_url }}" media="print" onload="this.media='all'">
+<div class="banner inner-banner" style="background-image: url({{ section.settings.banner_img | img_url: 'master' }});">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-12 col-lg-12">
+                <div class="banner-content">
+                  {% if section.settings.page_title %}
+                    <h2>{{ section.settings.page_title }}</h2>
+                  {% else %}
+                    {{ page.title | escape }}
+                  {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
-<noscript>{{ 'section-main-page.css' | asset_url | stylesheet_tag }}</noscript>
-<noscript>{{ 'component-rte.css' | asset_url | stylesheet_tag }}</noscript>
-
-{%- style -%}
-  .section-{{ section.id }}-padding {
-    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
-    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
-  }
-
-  @media screen and (min-width: 750px) {
-    .section-{{ section.id }}-padding {
-      padding-top: {{ section.settings.padding_top }}px;
-      padding-bottom: {{ section.settings.padding_bottom }}px;
-    }
-  }
-{%- endstyle -%}
-
+{% comment %}
 <div class="page-width page-width--narrow section-{{ section.id }}-padding">
   <h1 class="main-page-title page-title h0">
     {{ page.title | escape }}
@@ -25,7 +22,9 @@
   <div class="rte">
     {{ page.content }}
   </div>
-</div>
+</div>  
+{% endcomment %}
+
 
 {% schema %}
 {
@@ -38,24 +37,14 @@
       "content": "t:sections.all.padding.section_padding_heading"
     },
     {
-      "type": "range",
-      "id": "padding_top",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_top",
-      "default": 36
+      "type": "text",
+      "id": "page_title",
+      "label": "Page Title"
     },
     {
-      "type": "range",
-      "id": "padding_bottom",
-      "min": 0,
-      "max": 100,
-      "step": 4,
-      "unit": "px",
-      "label": "t:sections.all.padding.padding_bottom",
-      "default": 36
+      "type": "image_picker",
+      "id": "banner_img",
+      "label": "Banner Image"
     }
   ]
 }
