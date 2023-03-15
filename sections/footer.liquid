@@ -1,9 +1,3 @@
-<div class="footer-block--newsletter">
-         
-            <div class="footer-block__newsletter">
-              {%- if section.settings.newsletter_heading != blank -%}
-                <h2 class="footer-block__heading">{{ section.settings.newsletter_heading | escape }}</h2>
-              
               {%- form 'customer', id: 'ContactFooter', class: 'footer__newsletter newsletter-form' -%}
                 <input type="hidden" name="contact[tags]" value="newsletter">
                 <div class="newsletter-form__field-wrapper">
@@ -44,19 +38,8 @@
                 {%- endif -%}
               {%- endform -%}
             </div>
-          
+        
 
-          {%- if shop.features.follow_on_shop? and section.settings.enable_follow_on_shop -%}
-            <div class="footer__follow-on-shop">
-            {% comment %} TODO: enable theme-check once `login_button` is accepted as valid filter {% endcomment %}
-            {% # theme-check-disable %}
-              {{ shop | login_button: action: 'follow' }}
-            {% # theme-check-enable %}
-            </div>
-       
-
-     
-        </div>
 
 
         <footer class="footer" style="background-image: url({{ 'best-seeller-bg.png' | asset_url }});">
