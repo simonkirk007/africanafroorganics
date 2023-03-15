@@ -66,12 +66,47 @@
         "link_title": "view all",
         "link_url": "shopify:\/\/collections"
       }
+    },
+    "7b27e148-d40a-4030-a43f-92c2c4f7a6fc": {
+      "type": "custom-best-seller-collection",
+      "blocks": {
+        "template--18227249381658__7b27e148-d40a-4030-a43f-92c2c4f7a6fc-1678868305d3a22d60-0": {
+          "type": "column",
+          "settings": {
+            "title": "Hair Care Collection",
+            "content": "<p>African Afro high-quality premium products are the innovation of Kimberly Jefferson, who was born in Pensacola, FL. Kimberly is all too<\/p>",
+            "link_title": "learn more",
+            "link_url": "shopify:\/\/collections",
+            "link_title_2": "view all",
+            "link_url_2": "shopify:\/\/collections"
+          }
+        },
+        "template--18227249381658__7b27e148-d40a-4030-a43f-92c2c4f7a6fc-1678868305d3a22d60-1": {
+          "type": "column",
+          "settings": {
+            "title": "Hair Care Collection",
+            "content": "<p>African Afro high-quality premium products are the innovation of Kimberly Jefferson, who was born in Pensacola, FL. Kimberly is all too<\/p>",
+            "link_title": "learn more",
+            "link_url": "shopify:\/\/collections",
+            "link_title_2": "View All",
+            "link_url_2": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "template--18227249381658__7b27e148-d40a-4030-a43f-92c2c4f7a6fc-1678868305d3a22d60-0",
+        "template--18227249381658__7b27e148-d40a-4030-a43f-92c2c4f7a6fc-1678868305d3a22d60-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/collection-img.png"
+      }
     }
   },
   "order": [
     "028c73f7-e91b-41f4-be2c-48308ba38ee9",
     "9a3294f1-f0a8-471f-837b-b3365b191e84",
     "2c22d97f-748a-452c-b5d1-7aec976af10b",
-    "3670c7dd-1c87-41b6-992e-49c1280667b1"
+    "3670c7dd-1c87-41b6-992e-49c1280667b1",
+    "7b27e148-d40a-4030-a43f-92c2c4f7a6fc"
   ]
 }
