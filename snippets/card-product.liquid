@@ -52,7 +52,7 @@
         {%- if card_product.featured_media -%}
           <div class="card__media">
             <div class="media media--transparent media--hover-effect">
-              {% comment %}theme-check-disable ImgLazyLoading{% endcomment %}
+              {% comment %}theme-check-disable ImgLazyLoading
               <img
                 srcset="
                   {%- if card_product.featured_media.width >= 165 -%}{{ card_product.featured_media | image_url: width: 165 }} 165w,{%- endif -%}
@@ -74,7 +74,7 @@
                 height="{{ card_product.featured_media.height }}"
               >
               {% comment %}theme-check-enable ImgLazyLoading{% endcomment %}
-
+            {% endcomment %}
               {%- if card_product.media[1] != null and show_secondary_image -%}
                 <img
                   srcset="
