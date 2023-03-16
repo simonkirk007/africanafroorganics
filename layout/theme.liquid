@@ -453,7 +453,14 @@
     </script>
   </head>
 
-  <body class="gradient">
+  <body id="{{ page_title | handleize }}" class="{{ template }}
+          {% if template == "product" %}
+          {{ product.handle }}
+          {% endif %}
+          {% if template == "collection" %}
+          {{ collection.handle }}
+          {% endif %}
+          ">
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
