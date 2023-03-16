@@ -16,21 +16,21 @@
         {% assign someVar = someVar | plus: 1 %}
         <div class="accordion" id="accordionPanelsStayOpenExample">
           <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-heading{{ someVar }}">
+            <h2 class="accordion-header" id="panelsStayOpen-heading{{ someVar }}-{{ section.id }}">
               <button
                 class="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
-                data-bs-target="#panelsStayOpen-collapse{{ someVar }}"
+                data-bs-target="#panelsStayOpen-collapse{{ someVar }}-{{ section.id }}"
                 aria-expanded="true"
-                aria-controls="panelsStayOpen-collapse{{ someVar }}">
+                aria-controls="panelsStayOpen-collapse{{ someVar }}-{{ section.id }}">
                 {{ block.settings.title | escape }}
               </button>
             </h2>
             <div
-              id="panelsStayOpen-collapse{{ someVar }}"
+              id="panelsStayOpen-collapse{{ someVar }}-{{ section.id }}"
               class="accordion-collapse collapse"
-              aria-labelledby="panelsStayOpen-heading{{ someVar }}">
+              aria-labelledby="panelsStayOpen-heading{{ someVar }}-{{ section.id }}">
               <div class="accordion-body">
                 {{ block.settings.content }}
               </div>
