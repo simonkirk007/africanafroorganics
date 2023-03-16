@@ -122,3 +122,7 @@ form.contact input:focus, form.contact textarea:focus {
 .accor-wrap .accordion__content {
     padding: 0;
 }
+.MainProduct{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
