@@ -4,13 +4,13 @@
       "type": "custom-banner",
       "settings": {
         "sub_heading": "WELCOME TO AFRICAN AFRO",
-        "title": "For The Natural African Beauty",
-        "content": "<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...<\/p>",
+        "title": "Natural Hair Care Products",
+        "content": "<p>For The Natural African Beauty<\/p>",
         "image": "shopify:\/\/shop_images\/main-banner.png",
         "button_left": "SHOP NOW",
         "button_left_link": "shopify:\/\/collections",
         "button_right": "Contact us",
-        "button_right_link": "shopify:\/\/collections"
+        "button_right_link": "shopify:\/\/pages\/contact-us"
       }
     },
     "9a3294f1-f0a8-471f-837b-b3365b191e84": {
@@ -26,27 +26,27 @@
         "template--18227249381658__2c22d97f-748a-452c-b5d1-7aec976af10b-1678867004b8d9c45d-0": {
           "type": "column",
           "settings": {
-            "title": "Your Title Here",
-            "image": "shopify:\/\/shop_images\/best-seller-img1.png",
-            "content": "<p>Our Professional Natural Hair and Skin Care Products are collections created by us, inspired by us, and produced specifically for us since NO ONE <\/p>",
+            "title": "Conditioner & Repair Cream",
+            "image": "shopify:\/\/shop_images\/ARGAN-OIL-LEAVE-IN-CONDITIONER-_-REPAIR-CREAM.jpg",
+            "content": "<p>We've created a revitalizing conditioning cream that gives deeply penetrating moisture to strands in need of strengthening and repair.<\/p>",
             "title_right_top": "BEST <br> Sellers",
-            "title_product": "Your Title Here",
-            "sub_heading": "30ML\/1 FL OZ",
+            "title_product": "Conditioner & Repair Cream",
+            "sub_heading": "8 fl. oz.",
             "link_title": "Add To Cart",
-            "link_url": "shopify:\/\/collections"
+            "link_url": "shopify:\/\/products\/argan-oil-leave-in-conditioner-repair-cream-2"
           }
         },
         "template--18227249381658__2c22d97f-748a-452c-b5d1-7aec976af10b-1678867004b8d9c45d-1": {
           "type": "column",
           "settings": {
-            "title": "Your Title Here",
-            "image": "shopify:\/\/shop_images\/best-seller-img1.png",
-            "content": "<p>Our Professional Natural Hair and Skin Care Products are collections created by us,inspired by us, and produced specifically for us since NO ONE <\/p>",
+            "title": "Enhance & Repair Deep Conditioner",
+            "image": "shopify:\/\/shop_images\/BLACK-CASTOR-OIL-ENHANCE-_-REPAIR-DEEP-CONDITIONER.jpg",
+            "content": "<p>African Afro Enhancing Conditioner detangles and rehydrates hair without weighing it down.<\/p>",
             "title_right_top": "BEST <br> Sellers",
-            "title_product": "Your Title Here",
-            "sub_heading": "30ML\/1 FL OZ",
+            "title_product": "Enhance & Repair Deep Conditioner",
+            "sub_heading": "8 fl. oz.",
             "link_title": "Add To Cart",
-            "link_url": "shopify:\/\/collections"
+            "link_url": "shopify:\/\/products\/argan-oil-leave-in-conditioner-repair-cream-3"
           }
         }
       },
@@ -73,9 +73,9 @@
         "template--18227249381658__7b27e148-d40a-4030-a43f-92c2c4f7a6fc-1678868305d3a22d60-0": {
           "type": "column",
           "settings": {
-            "title": "Hair Care Collection",
-            "content": "<p>African Afro high-quality premium products are the innovation of Kimberly Jefferson, who was born in Pensacola, FL. Kimberly is all too<\/p>",
-            "link_title": "learn more",
+            "title": "African Queen",
+            "content": "<p>Our Professional Natural Hair and Skin Care Products are collections created by us, inspired by us, and produced specifically for us since NO ONE knows our hair and skin better than we do.<\/p>",
+            "link_title": "View Collection",
             "link_url": "shopify:\/\/collections",
             "link_title_2": "view all",
             "link_url_2": "shopify:\/\/collections"
@@ -84,9 +84,9 @@
         "template--18227249381658__7b27e148-d40a-4030-a43f-92c2c4f7a6fc-1678868305d3a22d60-1": {
           "type": "column",
           "settings": {
-            "title": "Hair Care Collection",
-            "content": "<p>African Afro high-quality premium products are the innovation of Kimberly Jefferson, who was born in Pensacola, FL. Kimberly is all too<\/p>",
-            "link_title": "learn more",
+            "title": "Strenghtens & Repairs",
+            "content": "<p>Our Shea butter and plant oils work together to protect hair from drying out while also providing necessary hydration without being greasy. They also protect the hair from breakage and split ends, strengthening and repairing it.<\/p>",
+            "link_title": "View Collection",
             "link_url": "shopify:\/\/collections",
             "link_title_2": "View All",
             "link_url_2": "shopify:\/\/collections"
