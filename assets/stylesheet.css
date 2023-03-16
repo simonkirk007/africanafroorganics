@@ -184,3 +184,11 @@ body.search form.search label {
 body.search form.search button.reset__button.field__button {
     display: none;
 }
+body.search form.search button.search__button {
+    height: 51px;
+}
+
+body.search form.search .search__input.field__input {
+    padding-left: 50px;
+    padding-right: 15px;
+}
