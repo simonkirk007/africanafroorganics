@@ -72,9 +72,9 @@
 
 
       <div class="accor-wrap">
+        
+        {% if section.settings.custom_direction != blank %}
         <div class="product__accordion accordion quick-add-hidden">
-
-          {% if section.settings.custom_direction != blank %}
           <details id="Details">
             <summary>
               <div class="summary__title">
@@ -88,9 +88,11 @@
               {{ section.settings.custom_direction }}
             </div>
           </details>
-          {% endif %}
+          </div>
+        {% endif %}
   
           {% if section.settings.custom_ingredients != blank %}
+        <div class="product__accordion accordion quick-add-hidden">
           <details id="Details">
             <summary>
               <div class="summary__title">
@@ -104,9 +106,11 @@
               {{ section.settings.custom_ingredients }}
             </div>
           </details>
-          {% endif %}
+          </div>
+        {% endif %}
 
           {% if section.settings.custom_disclaimer != blank %}
+          <div class="product__accordion accordion quick-add-hidden">
           <details id="Details">
             <summary>
               <div class="summary__title">
@@ -120,9 +124,9 @@
               {{ section.settings.custom_disclaimer }}
             </div>
           </details>
+          </div>
           {% endif %}
 
-          </div>
       </div>
     </div>
        
