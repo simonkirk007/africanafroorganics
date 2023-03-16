@@ -76,9 +76,9 @@
             "title": "African Queen",
             "content": "<p>Our Professional Natural Hair and Skin Care Products are collections created by us, inspired by us, and produced specifically for us since NO ONE knows our hair and skin better than we do.<\/p>",
             "link_title": "View Collection",
-            "link_url": "shopify:\/\/collections",
+            "link_url": "shopify:\/\/collections\/all",
             "link_title_2": "view all",
-            "link_url_2": "shopify:\/\/collections"
+            "link_url_2": "shopify:\/\/collections\/all"
           }
         },
         "template--18227249381658__7b27e148-d40a-4030-a43f-92c2c4f7a6fc-1678868305d3a22d60-1": {
@@ -87,9 +87,9 @@
             "title": "Strenghtens & Repairs",
             "content": "<p>Our Shea butter and plant oils work together to protect hair from drying out while also providing necessary hydration without being greasy. They also protect the hair from breakage and split ends, strengthening and repairing it.<\/p>",
             "link_title": "View Collection",
-            "link_url": "shopify:\/\/collections",
+            "link_url": "shopify:\/\/collections\/all",
             "link_title_2": "View All",
-            "link_url_2": "shopify:\/\/collections"
+            "link_url_2": "shopify:\/\/collections\/all"
           }
         }
       },
