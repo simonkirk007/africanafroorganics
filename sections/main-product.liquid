@@ -54,9 +54,9 @@
     >
   {%- endif -%}
 
-  {{ product.metafields.custom.direction }} 321
+  {{ section.settings.custom_direction }} 321
 
-  
+
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
 
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.media_position }} product--{{ section.settings.gallery_layout }} product--mobile-{{ section.settings.mobile_thumbnails }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
@@ -1924,6 +1924,12 @@
     }
   ],
   "settings": [
+    {
+      "type": "richtext",
+      "id": "custom_direction",
+      "default": "<p>other</p>",
+      "label": "Direction"
+    },
     {
       "type": "checkbox",
       "id": "enable_sticky_info",
