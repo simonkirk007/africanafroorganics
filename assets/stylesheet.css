@@ -87,3 +87,28 @@ form.contact input:focus, form.contact textarea:focus {
     border: 1px solid var(--c1);
     text-transform: uppercase;
 }
+.quantity button, .quantity input {
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+.quantity input {
+    margin: 0 15px;
+}
+.product-form__quantity {
+    max-width: 44rem;
+}
+
+.price.price--large {
+    padding: 0;
+    border: unset;
+}
+
+.product__description p, .product__description ul {
+    margin-bottom: 30px;
+}
+
+.product__description ul li {
+    margin-bottom: 15px;
+    list-style: disc;
+}
