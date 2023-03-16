@@ -78,3 +78,12 @@ form.contact input:focus, form.contact textarea:focus {
     border-radius: 7px;
     margin-bottom: 27px;
 }
+.button {
+    background-color: var(--c1);
+    color: #fff;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid var(--c1);
+    text-transform: uppercase;
+}
