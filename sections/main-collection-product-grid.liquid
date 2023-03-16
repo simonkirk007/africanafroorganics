@@ -153,7 +153,7 @@
                 {%- if forloop.index > 2 -%}
                   {%- assign lazy_load = true -%}
                 {%- endif -%}
-                <li class="grid__item">
+                
                   {% render 'card-product',
                     card_product: product,
                     media_aspect_ratio: section.settings.image_ratio,
@@ -164,7 +164,7 @@
                     show_quick_add: section.settings.enable_quick_add,
                     section_id: section.id
                   %}
-                </li>
+                
               {%- endfor -%}
             </ul>
 
