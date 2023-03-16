@@ -1,0 +1,81 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "page_title": "",
+        "banner_img": "shopify:\/\/shop_images\/main-banner_4640cadc-2673-4c46-aa64-2704d774fb88.png"
+      }
+    },
+    "39ec2912-0af2-4ad9-8f05-49e0a7b456af": {
+      "type": "custom-disclaimer",
+      "blocks": {
+        "template--18256281895194__39ec2912-0af2-4ad9-8f05-49e0a7b456af-16789742692d37b4d1-0": {
+          "type": "column",
+          "settings": {
+            "sub_heading": "",
+            "title": "Safety Guide",
+            "content": "<p>Certain ingredients of African Afro &lcub;known as “African Afro ”) products may contain essential oils, butter, and oils from natural nuts, seeds, and fruits, as well as soy. If you have any allergies, medical conditions or are pregnant, please consult your healthcare professional prior to use. We recommend that people with sensitive skin perform an area\/patch test and\/or consult a healthcare professional prior to use. Discontinue use of any African Afro  product should irritation occur. African Afro products are for external use only. Do not consume these items, as they may contain essential oils, which should never be consumed.<\/p><p>All facts, details & recommendations on this website or about African Afro™ products are provided for information purposes only and are not intended to diagnose, prescribe or replace the advice of healthcare professionals. By purchasing African Afro™ products you accept responsibility to check with a professional before using any products that may interfere with any prescription or non-prescription medications you may be taking or any known or unknown medical conditions. African Afro™ products are not intended to be a substitute for medical treatment.<\/p>"
+          }
+        },
+        "template--18256281895194__39ec2912-0af2-4ad9-8f05-49e0a7b456af-16789742692d37b4d1-1": {
+          "type": "column",
+          "settings": {
+            "sub_heading": "",
+            "title": "Area\/Patch Test",
+            "content": "<p>This test allows you to test a small area of your skin for 24 hours before applying the treatment to a larger area. We recommend rubbing the African Afromixture on the skin near your elbow, covering it with a bandage for 24 hours and if there is no allergic response (redness, itchiness, swelling) then apply the treatment as directed in the instructions. If you have an allergic reaction, we do not recommend the use of African Afroand suggest that you seek a medical professional’s consultation.<\/p>"
+          }
+        },
+        "35f72021-c8b5-435e-ab0b-937510be0d9d": {
+          "type": "column",
+          "settings": {
+            "sub_heading": "",
+            "title": "Consistency Disclaimer",
+            "content": "<p>African Afromay periodically add, remove, update or change information on this website at any time or discontinue any African Afroproduct, without prior notice.<\/p>"
+          }
+        },
+        "085adb81-39b2-409f-be64-5bcce5f09d25": {
+          "type": "column",
+          "settings": {
+            "sub_heading": "",
+            "title": "Liability Disclaimer",
+            "content": "<p>IN NO EVENT SHALL AFRICAN AFROBE LIABLE FOR ANY DIRECT, INDIRECT, SPECIAL, PUNITIVE, EXEMPLARY, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, OR ANY DAMAGES WHATSOEVER IN EXCESS OF THE AMOUNT YOU PAID TO AFRICAN AFRO FOR ANY PRODUCT(S) AT ISSUE, EVEN IF AFRICAN AFRO™ HAS BEEN PREVIOUSLY ADVISED OF THE POSSIBILITY OF SUCH DAMAGES, WHETHER IN AN ACTION UNDER CONTRACT, NEGLIGENCE, OR ANY OTHER THEORY, ARISING OUT OF OR IN CONNECTION WITH THE USE, INABILITY TO USE, OR PERFORMANCE OF THE INFORMATION, SERVICES, PRODUCTS AND MATERIALS AVAILABLE FROM THIS WEBSITE. NO ACTION OR PROCEEDING MAY BE BROUGHT AGAINST AFRICAN AFRO™ WITH RESPECT TO ANY CLAIM OR DISPUTE ARISING FROM THE USE OF THIS SITE OR THE PURCHASE OF ANY PRODUCTS OR GOODS THROUGH THIS WEBSITE UNLESS SUCH ACTION OR PROCEEDING IS BROUGHT WITHIN ONE YEAR OF SUCH USE OR PURCHASE AND BROUGHT WITHIN THE STATE OF DELAWARE, WITH DELAWARE CHOICE OF LAW.<\/p>"
+          }
+        },
+        "5cb8dc3f-792c-4904-9fd0-e70ff1c1863c": {
+          "type": "column",
+          "settings": {
+            "sub_heading": "",
+            "title": "Indemnity",
+            "content": "<p>By use of this website and purchase of African Afroproducts you agree to and shall indemnify and hold harmless African Afro, its officers, directors, employees and agents, from and against all claims, debts, liabilities, demands, obligations costs, expenses, actions causes of action and claims for relief including those brought by any third party, including reasonable attorneys’ fees, asserted against or alleged to be caused by your use of this website or any African Afroproduct.<\/p>"
+          }
+        },
+        "214bb212-b3be-479c-b881-a8ef28210d47": {
+          "type": "column",
+          "settings": {
+            "sub_heading": "",
+            "title": "Privacy Policy",
+            "content": "<p>African Afro protects customer information according to the Privacy Statement posted on this Site. The Privacy Statement, as amended from time to time, is hereby incorporated by reference.<\/p><p>BY ORDERING FROM OUR WEBSITE YOU CONFIRM YOU HAVE READ, UNDERSTAND AND AGREE TO AFRICAN AFRO’s TERMS OF USE AND THE TERMS AND CONDITIONS SET FORTH ABOVE.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18256281895194__39ec2912-0af2-4ad9-8f05-49e0a7b456af-16789742692d37b4d1-0",
+        "template--18256281895194__39ec2912-0af2-4ad9-8f05-49e0a7b456af-16789742692d37b4d1-1",
+        "35f72021-c8b5-435e-ab0b-937510be0d9d",
+        "085adb81-39b2-409f-be64-5bcce5f09d25",
+        "5cb8dc3f-792c-4904-9fd0-e70ff1c1863c",
+        "214bb212-b3be-479c-b881-a8ef28210d47"
+      ],
+      "settings": {
+        "sub_heading": "DISCLAIMER",
+        "title": "Safety Guide And Disclaimer",
+        "content": "<p>At African Afro we value the health and safety of our customers, so to ensure that you enjoy African Afro to the fullest read our Safety Guide before you use our products.<\/p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "39ec2912-0af2-4ad9-8f05-49e0a7b456af"
+  ]
+}
