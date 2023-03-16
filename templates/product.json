@@ -57,7 +57,7 @@
           "settings": {
             "heading": "Collapsible row",
             "icon": "box",
-            "content": "<p>asdasd<\/p>",
+            "content": "<p>{{ shop.brand.short_description }}<\/p>",
             "page": ""
           }
         }
