@@ -15,6 +15,11 @@
           "settings": {
           }
         },
+        "b233dead-ad97-45f2-b787-5513603061b9": {
+          "type": "rating",
+          "settings": {
+          }
+        },
         "d57cf060-65b5-4ad9-8657-d3aeb90ecdc2": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
@@ -62,6 +67,7 @@
       "block_order": [
         "vendor",
         "title",
+        "b233dead-ad97-45f2-b787-5513603061b9",
         "d57cf060-65b5-4ad9-8657-d3aeb90ecdc2",
         "price",
         "variant_picker",
