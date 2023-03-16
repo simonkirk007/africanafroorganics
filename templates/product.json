@@ -30,6 +30,11 @@
           "settings": {
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -47,8 +52,8 @@
             "show_dynamic_checkout": false
           }
         },
-        "description": {
-          "type": "description",
+        "be8e8176-1ff9-448b-8dc6-57bf19cea028": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
           }
         }
@@ -58,10 +63,11 @@
         "title",
         "d57cf060-65b5-4ad9-8657-d3aeb90ecdc2",
         "price",
+        "description",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description"
+        "be8e8176-1ff9-448b-8dc6-57bf19cea028"
       ],
       "settings": {
         "enable_sticky_info": false,
@@ -74,8 +80,8 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12,
+        "padding_top": 60,
+        "padding_bottom": 60,
         "custom_direction": "<p>{{ product.metafields.custom.direction | metafield_tag }}<\/p>",
         "custom_ingredients": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}<\/p>",
         "custom_disclaimer": "<p>{{ product.metafields.custom.disclaimer | metafield_tag }}<\/p>"
@@ -94,8 +100,8 @@
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 28
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     }
   },
