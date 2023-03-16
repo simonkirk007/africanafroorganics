@@ -1,0 +1,103 @@
+<section class="about">
+  <div class="container">
+    <div class="accordion-wrap">
+
+      {%- for block in section.blocks -%}
+        {% assign someVar = someVar | plus: 1 %}
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-heading{{ someVar }}">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne"
+                aria-expanded="true"
+                aria-controls="panelsStayOpen-collapseOne">
+                {{ block.settings.title | escape }}
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="panelsStayOpen-headingOne">
+              <div class="accordion-body">
+                {{ block.settings.content }}
+              </div>
+            </div>
+          </div>
+
+
+
+        {%- endfor -%}
+
+
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+
+{% schema %}
+  {
+    "name": "Custom FAQ",
+    "tag": "section",
+    "class": "announcement-bar-section",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+      }, {
+        "type": "text",
+        "id": "sub_heading",
+        "default": "Collections",
+        "label": "Sub Heading"
+      }, {
+        "type": "text",
+        "id": "title",
+        "default": "Collections",
+        "label": "Title"
+      }, {
+        "type": "richtext",
+        "id": "content",
+        "default": "<p>Collections</p>",
+        "label": "Content"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "column",
+        "name": "t:sections.multicolumn.blocks.column.name",
+        "settings": [
+          {
+            "type": "text",
+            "id": "title",
+            "default": "Collections",
+            "label": "Title"
+          }, {
+            "type": "richtext",
+            "id": "content",
+            "default": "<p>Collections</p>",
+            "label": "Content"
+          }
+
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom FAQ",
+        "blocks": [
+          {
+            "type": "column"
+          }, {
+            "type": "column"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
