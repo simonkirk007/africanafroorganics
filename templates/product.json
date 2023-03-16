@@ -60,6 +60,15 @@
             "content": "<p>{{ product.metafields.custom.direction | metafield_tag }}<\/p>",
             "page": ""
           }
+        },
+        "a7e26d2d-1b26-4dfc-a5f9-b9f100f555b0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "content": "",
+            "page": ""
+          }
         }
       },
       "block_order": [
@@ -71,7 +80,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "6b485380-8b96-4257-bd86-f662438fef92"
+        "6b485380-8b96-4257-bd86-f662438fef92",
+        "a7e26d2d-1b26-4dfc-a5f9-b9f100f555b0"
       ],
       "settings": {
         "enable_sticky_info": false,
