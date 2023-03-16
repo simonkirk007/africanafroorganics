@@ -126,3 +126,19 @@ form.contact input:focus, form.contact textarea:focus {
     padding-top: 50px;
     padding-bottom: 50px;
 }
+.best-seeller-inner-item img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.arrival-inner-item img {
+    height: 300px;
+    object-fit: cover;
+}
+.arrival-content h3 a {
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
