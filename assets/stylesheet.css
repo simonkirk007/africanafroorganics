@@ -151,3 +151,14 @@ form.contact input:focus, form.contact textarea:focus {
     text-transform: none;
     font-family: Tenor Sans,sans-serif;
   }
+  body#faq section.about {
+    padding: 0 0 20px;
+}
+
+body#faq .banner {
+    margin-bottom: 50px;
+}
+
+body#faq footer {
+    margin-top: 50px;
+}
