@@ -176,3 +176,11 @@ body#your-shopping-cart {
     font-family: Tenor Sans,sans-serif;
     font-size: 18px;
 }
+
+body.search form.search label {
+    display: none;
+}
+
+body.search form.search button.reset__button.field__button {
+    display: none;
+}
