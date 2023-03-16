@@ -1,3 +1,7 @@
+
+{{ section.settings.custom_direction }} 432
+{{ product.metafields.custom.direction }} 432
+
 <section
   id="MainProduct-{{ section.id }}"
   class="page-width section-{{ section.id }}-padding"
@@ -54,7 +58,6 @@
     >
   {%- endif -%}
 
-  {{ section.settings.custom_direction }} 432
 
 
   {% assign variant_images = product.images | where: 'attached_to_variant?', true | map: 'src' %}
