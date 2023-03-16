@@ -74,8 +74,8 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 12,
+        "padding_top": 60,
+        "padding_bottom": 60,
         "custom_direction": "<p>{{ product.metafields.custom.direction | metafield_tag }}<\/p>",
         "custom_ingredients": "<p>{{ product.metafields.custom.ingredients | metafield_tag }}<\/p>",
         "custom_disclaimer": "<p>{{ product.metafields.custom.disclaimer | metafield_tag }}<\/p>"
@@ -94,8 +94,8 @@
         "show_vendor": false,
         "show_rating": false,
         "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 28
+        "padding_top": 60,
+        "padding_bottom": 60
       }
     }
   },
