@@ -112,3 +112,13 @@ form.contact input:focus, form.contact textarea:focus {
     margin-bottom: 15px;
     list-style: disc;
 }
+.accor-wrap .accordion__title {
+    font-size: 20px;
+    font-family: Tenor Sans,sans-serif;
+}
+
+.accor-wrap .product__accordion {border-color: #000;}
+
+.accor-wrap .accordion__content {
+    padding: 0;
+}
