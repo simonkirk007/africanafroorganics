@@ -177,18 +177,18 @@ body#your-shopping-cart {
     font-size: 18px;
 }
 
-body.search form.search label {
+body.search .template-search__header form.search label {
     display: none;
 }
 
-body.search form.search button.reset__button.field__button {
+body.search .template-search__header form.search button.reset__button.field__button {
     display: none;
 }
-body.search form.search button.search__button {
+body.search .template-search__header form.search button.search__button {
     height: 51px;
 }
 
-body.search form.search .search__input.field__input {
+body.search .template-search__header form.search .search__input.field__input {
     padding-left: 50px;
     padding-right: 15px;
 }
