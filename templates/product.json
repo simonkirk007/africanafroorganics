@@ -75,7 +75,10 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 36,
-        "padding_bottom": 12
+        "padding_bottom": 12,
+        "custom_direction": "<p>{{ product.metafields.custom.direction | metafield_tag }}<\/p>",
+        "custom_ingredients": "",
+        "custom_disclaimer": ""
       }
     },
     "related-products": {
