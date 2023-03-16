@@ -22,19 +22,132 @@
             "title": "Wholesale Inquiry",
             "content": "<p>We’d look great together. If you’re interested in a wholesale partnership, please reach out to,<strong>support@african-afro.com<\/strong><\/p>"
           }
+        },
+        "00f83d75-858e-4fa9-87f3-889680c05570": {
+          "type": "column",
+          "settings": {
+            "title": "African Afro Office Hours",
+            "content": "<p>Here for you! Find us Mon-Thu 10 AM-5 PM (CST) and Fri 10 AM-4 PM (CST). If you drop us a note over the weekend, we’ll respond as soon as we return to the office.<\/p>"
+          }
         }
       },
       "block_order": [
         "template--18256423256346__26eb3c69-8450-4ad4-9424-4b38c1439c56-1678975090b988979e-0",
-        "template--18256423256346__26eb3c69-8450-4ad4-9424-4b38c1439c56-1678975090b988979e-1"
+        "template--18256423256346__26eb3c69-8450-4ad4-9424-4b38c1439c56-1678975090b988979e-1",
+        "00f83d75-858e-4fa9-87f3-889680c05570"
       ],
       "settings": {
         "sub_heading": "TALK TO US"
+      }
+    },
+    "26efc07e-465c-456b-b6da-e5d58a45885f": {
+      "type": "custom-faq",
+      "blocks": {
+        "template--18256423256346__26efc07e-465c-456b-b6da-e5d58a45885f-1678975090b988979e-0": {
+          "type": "column",
+          "settings": {
+            "title": "Do your products contain sulfates, silicones, or parabens?",
+            "content": "<p>Nope, they are 100% free of all three!<\/p>"
+          }
+        },
+        "template--18256423256346__26efc07e-465c-456b-b6da-e5d58a45885f-1678975090b988979e-1": {
+          "type": "column",
+          "settings": {
+            "title": "Will they help with hair grow?",
+            "content": "<p>Our Growth Oil in particular contains many naturally stimulating ingredients that help to promote healthy hair growth :) <\/p>"
+          }
+        },
+        "1110d5a4-7d5c-4c27-85a6-0eb80dcca313": {
+          "type": "column",
+          "settings": {
+            "title": "I have extensions, can I still use your products?",
+            "content": "<p>Because our products are rich in essential oils, we advise against using our products if you have bonded\/glued in extensions. Oil can weaken your glue bonds over time and we would hate for your extensions to loosen up prematurely! <\/p>"
+          }
+        },
+        "ccf5d010-0323-4951-bb46-f7bb48212900": {
+          "type": "column",
+          "settings": {
+            "title": "Are your products safe to use during pregnancy?",
+            "content": "<p>Absolutely! New moms love our Moroccan Scalp & Hair Growth Oil in particular as it can help to minimize postpartum hair loss! But always check with your doctor first.<\/p>"
+          }
+        },
+        "87f93391-6401-41fd-aa09-483e700bd2e5": {
+          "type": "column",
+          "settings": {
+            "title": "I'm not Black\/African American but my is curly and thick, can I use your products?",
+            "content": "<p>Yes. Our products are made for all hair types and ethnicities. Our products can be used in women, men and children’s hair. Works best for hair types that are lacking moisture like curly\/coily hair.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18256423256346__26efc07e-465c-456b-b6da-e5d58a45885f-1678975090b988979e-0",
+        "template--18256423256346__26efc07e-465c-456b-b6da-e5d58a45885f-1678975090b988979e-1",
+        "1110d5a4-7d5c-4c27-85a6-0eb80dcca313",
+        "ccf5d010-0323-4951-bb46-f7bb48212900",
+        "87f93391-6401-41fd-aa09-483e700bd2e5"
+      ],
+      "settings": {
+        "sub_heading": "OUR PRODUCTS"
+      }
+    },
+    "5c103287-5e35-4a9e-97f3-5252d9dff063": {
+      "type": "custom-faq",
+      "blocks": {
+        "template--18256423256346__5c103287-5e35-4a9e-97f3-5252d9dff063-1678975090b988979e-0": {
+          "type": "column",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "content": "<p>We process and ship out all orders Monday through Friday, not including holidays. Orders with standard shipping will usually be fulfilled and shipped the next 1-5 business days (Monday through Friday, not including holidays). We know, we’re as fast as lightning!<\/p><p>Once your order has shipped, you will receive a shipping confirmation email with your tracking information enclosed. Please note that it may take up to 24-48 hours for your tracking information to update.<\/p>"
+          }
+        },
+        "template--18256423256346__5c103287-5e35-4a9e-97f3-5252d9dff063-1678975090b988979e-1": {
+          "type": "column",
+          "settings": {
+            "title": "Where will my order ship from and how long will it take for my order to arrive",
+            "content": "<p>All African Afro orders are shipped out of the Florida warehouse. Orders with standard shipping usually take 2-5 business days from the day it ships to arrive to its final destination.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18256423256346__5c103287-5e35-4a9e-97f3-5252d9dff063-1678975090b988979e-0",
+        "template--18256423256346__5c103287-5e35-4a9e-97f3-5252d9dff063-1678975090b988979e-1"
+      ],
+      "settings": {
+        "sub_heading": "DOMESTIC SHIPPING (WITHIN THE US)"
+      }
+    },
+    "6be47229-f1f6-4684-9e53-41221259a20f": {
+      "type": "custom-faq",
+      "blocks": {
+        "template--18256423256346__6be47229-f1f6-4684-9e53-41221259a20f-1678975090b988979e-0": {
+          "type": "column",
+          "settings": {
+            "title": "Can I make changes to or cancel my order",
+            "content": "<p>We at African Afro work hard to help you get your orders as fast as possible. So as soon as the payment is accepted and the order is confirmed, it is immediately in process to be shipped. This means there is only a very small window of time where we can “catch” your order before it is physically picked, packed and set aside for shipping.<\/p><p>This unfortunately means NO changes can be made to your order once it is shipped. Please email us at <strong>support@african-afro.com <\/strong>as soon as possible with the subject line \"Cancellation\" and your full name and order number. We’ll let you know what we can do! <\/p>"
+          }
+        },
+        "template--18256423256346__6be47229-f1f6-4684-9e53-41221259a20f-1678975090b988979e-1": {
+          "type": "column",
+          "settings": {
+            "title": "Collections",
+            "content": "<p>Collections<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18256423256346__6be47229-f1f6-4684-9e53-41221259a20f-1678975090b988979e-0",
+        "template--18256423256346__6be47229-f1f6-4684-9e53-41221259a20f-1678975090b988979e-1"
+      ],
+      "settings": {
+        "sub_heading": "CANCELLATIONS"
       }
     }
   },
   "order": [
     "main",
-    "26eb3c69-8450-4ad4-9424-4b38c1439c56"
+    "26eb3c69-8450-4ad4-9424-4b38c1439c56",
+    "26efc07e-465c-456b-b6da-e5d58a45885f",
+    "5c103287-5e35-4a9e-97f3-5252d9dff063",
+    "6be47229-f1f6-4684-9e53-41221259a20f"
   ]
 }
