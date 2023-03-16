@@ -165,3 +165,14 @@ body#faq footer {
 .arrival-inner-item {
     text-align: center;
 }
+body#your-shopping-cart {
+    padding: 0;
+}
+.price {
+    border: unset;
+    padding: 0;
+}
+.cart-item__details a.cart-item__name {
+    font-family: Tenor Sans,sans-serif;
+    font-size: 18px;
+}
