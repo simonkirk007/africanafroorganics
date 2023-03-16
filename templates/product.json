@@ -30,6 +30,11 @@
           "settings": {
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -47,11 +52,6 @@
             "show_dynamic_checkout": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "be8e8176-1ff9-448b-8dc6-57bf19cea028": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
@@ -63,10 +63,10 @@
         "title",
         "d57cf060-65b5-4ad9-8657-d3aeb90ecdc2",
         "price",
+        "description",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
         "be8e8176-1ff9-448b-8dc6-57bf19cea028"
       ],
       "settings": {
