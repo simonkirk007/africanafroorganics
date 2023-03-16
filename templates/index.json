@@ -8,7 +8,7 @@
         "content": "<p>For The Natural African Beauty<\/p>",
         "image": "shopify:\/\/shop_images\/main-banner.png",
         "button_left": "SHOP NOW",
-        "button_left_link": "shopify:\/\/collections",
+        "button_left_link": "shopify:\/\/collections\/all",
         "button_right": "Contact us",
         "button_right_link": "shopify:\/\/pages\/contact-us"
       }
@@ -64,7 +64,7 @@
         "title": "Our Products",
         "collection": "frontpage",
         "link_title": "view all",
-        "link_url": "shopify:\/\/collections"
+        "link_url": "shopify:\/\/collections\/all"
       }
     },
     "7b27e148-d40a-4030-a43f-92c2c4f7a6fc": {
@@ -76,9 +76,9 @@
             "title": "African Queen",
             "content": "<p>Our Professional Natural Hair and Skin Care Products are collections created by us, inspired by us, and produced specifically for us since NO ONE knows our hair and skin better than we do.<\/p>",
             "link_title": "View Collection",
-            "link_url": "shopify:\/\/collections",
+            "link_url": "shopify:\/\/collections\/all",
             "link_title_2": "view all",
-            "link_url_2": "shopify:\/\/collections"
+            "link_url_2": "shopify:\/\/collections\/all"
           }
         },
         "template--18227249381658__7b27e148-d40a-4030-a43f-92c2c4f7a6fc-1678868305d3a22d60-1": {
@@ -87,9 +87,9 @@
             "title": "Strenghtens & Repairs",
             "content": "<p>Our Shea butter and plant oils work together to protect hair from drying out while also providing necessary hydration without being greasy. They also protect the hair from breakage and split ends, strengthening and repairing it.<\/p>",
             "link_title": "View Collection",
-            "link_url": "shopify:\/\/collections",
+            "link_url": "shopify:\/\/collections\/all",
             "link_title_2": "View All",
-            "link_url_2": "shopify:\/\/collections"
+            "link_url_2": "shopify:\/\/collections\/all"
           }
         }
       },
@@ -173,42 +173,42 @@
           "type": "column",
           "settings": {
             "image_insta": "shopify:\/\/shop_images\/insta-img-4.png",
-            "link_url": "#"
+            "link_url": "https:\/\/www.instagram.com\/africanafroorganics\/"
           }
         },
         "template--18227249381658__9ab47fb8-902b-424a-8536-d95f1b8ae8f4-167886956201e1fa69-1": {
           "type": "column",
           "settings": {
             "image_insta": "shopify:\/\/shop_images\/insta-img-5.png",
-            "link_url": "#"
+            "link_url": "https:\/\/www.instagram.com\/africanafroorganics\/"
           }
         },
         "template--18227249381658__9ab47fb8-902b-424a-8536-d95f1b8ae8f4-167886956201e1fa69-2": {
           "type": "column",
           "settings": {
             "image_insta": "shopify:\/\/shop_images\/insta-img-3.png",
-            "link_url": "#"
+            "link_url": "https:\/\/www.instagram.com\/africanafroorganics\/"
           }
         },
         "template--18227249381658__9ab47fb8-902b-424a-8536-d95f1b8ae8f4-167886956201e1fa69-3": {
           "type": "column",
           "settings": {
             "image_insta": "shopify:\/\/shop_images\/insta-img-5.png",
-            "link_url": "#"
+            "link_url": "https:\/\/www.instagram.com\/africanafroorganics\/"
           }
         },
         "template--18227249381658__9ab47fb8-902b-424a-8536-d95f1b8ae8f4-167886956201e1fa69-4": {
           "type": "column",
           "settings": {
             "image_insta": "shopify:\/\/shop_images\/insta-img-2.png",
-            "link_url": "#"
+            "link_url": "https:\/\/www.instagram.com\/africanafroorganics\/"
           }
         },
         "template--18227249381658__9ab47fb8-902b-424a-8536-d95f1b8ae8f4-167886956201e1fa69-5": {
           "type": "column",
           "settings": {
             "image_insta": "shopify:\/\/shop_images\/insta-img-6.png",
-            "link_url": "#"
+            "link_url": "https:\/\/www.instagram.com\/africanafroorganics\/"
           }
         }
       },
@@ -223,7 +223,7 @@
       "settings": {
         "title": "INSTAGRAM",
         "link_title": "View instagram",
-        "link_url": "#"
+        "link_url": "https:\/\/www.instagram.com\/africanafroorganics\/"
       }
     }
   },
