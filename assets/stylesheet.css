@@ -133,8 +133,9 @@ form.contact input:focus, form.contact textarea:focus {
     border-radius: 10px;
 }
 .arrival-inner-item img {
-    height: 300px;
+    height: 285px;
     object-fit: cover;
+    width: 285px;
 }
 .arrival-content h3 a {
     overflow: hidden;
