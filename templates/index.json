@@ -8,7 +8,7 @@
         "content": "<p>For The Natural African Beauty<\/p>",
         "image": "shopify:\/\/shop_images\/main-banner.png",
         "button_left": "SHOP NOW",
-        "button_left_link": "shopify:\/\/collections",
+        "button_left_link": "shopify:\/\/collections\/all",
         "button_right": "Contact us",
         "button_right_link": "shopify:\/\/pages\/contact-us"
       }
