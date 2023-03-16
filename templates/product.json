@@ -51,15 +51,6 @@
           "type": "description",
           "settings": {
           }
-        },
-        "98f8566e-079d-4e26-b81b-30e97963ff3f": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "box",
-            "content": "<p>{{ shop.brand.short_description }}<\/p>",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -70,8 +61,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
-        "98f8566e-079d-4e26-b81b-30e97963ff3f"
+        "description"
       ],
       "settings": {
         "enable_sticky_info": false,
