@@ -33,56 +33,54 @@ Usage:
     endif
   -%}
 
-  <div class="arrival-item">
-    <div class="arrival-inner-item">
-      <div class="inner-content">
-        <div class="wishlist">
-          <h6>NEW</h6>
-          <i class="far fa-heart"></i>
+  <div class="col-md-4">
+    <div class="arrival-item">
+      <div class="arrival-inner-item">
+        <div class="inner-content">
+          <div class="wishlist">
+            <h6>NEW</h6>
+            <i class="far fa-heart"></i>
+          </div>
         </div>
+        <a href="{{ card_product.url }}"><img src="{{ card_product.featured_image.src | img_url: 'large' }}" alt=""></a>
       </div>
-      <a
-        href="{{ card_product.url }}"><img src="{{ card_product.featured_image.src | img_url: 'large' }}" alt=""></a>
-    </div>
-    <div class="arrival-content">
-      <h3>
-        <a href="{{ card_product.url }}">{{ card_product.title }}</h3>
-      </a>
-      <div class="rating">
-        <ul>
-          <li>
-            <i class="fa fa-star"></i>
-          </li>
-          <li>
-            <i class="fa fa-star"></i>
-          </li>
-          <li>
-            <i class="fa fa-star"></i>
-          </li>
-          <li>
-            <i class="fa fa-star"></i>
-          </li>
-          <li>
-            <i class="fa fa-star"></i>
-          </li>
-
-        </ul>
-      </div>
-
-      <div class="price">
-        {% if card_product.compare_at_price > card_product.price %}
-          <span>{{ card_product.price | money }}</span>
-          <del>{{ card_product.compare_at_price | money }}</del>
-        {% else %}
-          <span>{{ card_product.price | money }}</span>
-        {% endif %}
-      </div>
-
-      <div class="arrival-btn">
-        <a
-          href="{{ card_product.url }}"
-          class="btn-1"
-          href="">DISCOVER</a>
+      <div class="arrival-content">
+        <h3>
+          <a href="{{ card_product.url }}">{{ card_product.title }}</h3>
+        </a>
+        <div class="rating">
+          <ul>
+            <li>
+              <i class="fa fa-star"></i>
+            </li>
+            <li>
+              <i class="fa fa-star"></i>
+            </li>
+            <li>
+              <i class="fa fa-star"></i>
+            </li>
+            <li>
+              <i class="fa fa-star"></i>
+            </li>
+            <li>
+              <i class="fa fa-star"></i>
+            </li>
+          </ul>
+        </div>
+        <div class="price">
+          {% if card_product.compare_at_price > card_product.price %}
+            <span>{{ card_product.price | money }}</span>
+            <del>{{ card_product.compare_at_price | money }}</del>
+          {% else %}
+            <span>{{ card_product.price | money }}</span>
+          {% endif %}
+        </div>
+        <div class="arrival-btn">
+          <a
+            href="{{ card_product.url }}"
+            class="btn-1"
+            href="">DISCOVER</a>
+        </div>
       </div>
     </div>
   </div>
