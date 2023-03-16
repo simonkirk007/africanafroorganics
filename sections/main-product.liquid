@@ -73,6 +73,8 @@
 
       <div class="accor-wrap">
         <div class="product__accordion accordion quick-add-hidden">
+
+          {% if section.settings.custom_direction =! blank %}
           <details id="Details">
             <summary>
               <div class="summary__title">
@@ -86,11 +88,14 @@
               {{ section.settings.custom_direction }}
             </div>
           </details>
+          {% endif %}
+  
+          {% if section.settings.custom_direction =! blank %}
           <details id="Details">
             <summary>
               <div class="summary__title">
                 <h2 class="h4 accordion__title">
-                  Direction
+                  Ingredients
                 </h2>
               </div>
             {% render 'icon-caret' %}
@@ -99,11 +104,14 @@
               {{ section.settings.custom_ingredients }}
             </div>
           </details>
+          {% endif %}
+
+          {% if section.settings.custom_direction =! blank %}
           <details id="Details">
             <summary>
               <div class="summary__title">
                 <h2 class="h4 accordion__title">
-                  Direction
+                  Local Disclaimer
                 </h2>
               </div>
             {% render 'icon-caret' %}
@@ -112,10 +120,13 @@
               {{ section.settings.custom_disclaimer }}
             </div>
           </details>
-        </div>
+          {% endif %}
+
+          </div>
       </div>
     </div>
-    
+          {% endif %}
+
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
       <product-info
         id="ProductInfo-{{ section.id }}"
