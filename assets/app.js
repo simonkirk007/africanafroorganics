@@ -14,6 +14,20 @@ $(".search-close-ic a").click(function () {
   $(".search-bar").removeClass("active");
 });
 
+$(".banner-slider").slick({
+  dots: false,
+  infinite: true,
+  autoplay: true,
+  arrows: true,
+  speed: 200,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  prevArrow:
+  '<div class="slick-prev"><i class="fal fa-arrow-circle-left"></i></div>',
+nextArrow:
+  '<div class="slick-next"><i class="fal fa-arrow-circle-right"></i></div>',
+});
+
 $(".arrival-slider").slick({
   dots: false,
   infinite: true,
