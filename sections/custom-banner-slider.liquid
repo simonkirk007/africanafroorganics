@@ -33,45 +33,51 @@
     "class": "announcement-bar-section",
     "blocks": [
       {
-        "type": "text",
-        "id": "sub_heading",
-        "default": "Collections",
-        "label": "Sub Heading"
-      },
-      {
-        "type": "text",
-        "id": "title",
-        "default": "Collections",
-        "label": "Title"
-      },
-      {
-        "type": "richtext",
-        "id": "content",
-        "default": "<p>Collections</p>",
-        "label": "Content"
-      },
-      {
-        "type": "image_picker",
-        "id": "image",
-        "label": "t:sections.multicolumn.blocks.column.settings.image.label"
-      }, {
-        "type": "text",
-        "id": "button_left",
-        "default": "Collections",
-        "label": "Button Left Title"
-      }, {
-        "type": "url",
-        "id": "button_left_link",
-        "label": "Button Left Link"
-      }, {
-        "type": "text",
-        "id": "button_right",
-        "default": "Collections",
-        "label": "Button Right Title"
-      }, {
-        "type": "url",
-        "id": "button_right_link",
-        "label": "Button Right Link"
+        "type": "column",
+        "name": "t:sections.multicolumn.blocks.column.name",
+        "settings": [
+          {
+            "type": "text",
+            "id": "sub_heading",
+            "default": "Collections",
+            "label": "Sub Heading"
+          },
+          {
+            "type": "text",
+            "id": "title",
+            "default": "Collections",
+            "label": "Title"
+          },
+          {
+            "type": "richtext",
+            "id": "content",
+            "default": "<p>Collections</p>",
+            "label": "Content"
+          },
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+          }, {
+            "type": "text",
+            "id": "button_left",
+            "default": "Collections",
+            "label": "Button Left Title"
+          }, {
+            "type": "url",
+            "id": "button_left_link",
+            "label": "Button Left Link"
+          }, {
+            "type": "text",
+            "id": "button_right",
+            "default": "Collections",
+            "label": "Button Right Title"
+          }, {
+            "type": "url",
+            "id": "button_right_link",
+            "label": "Button Right Link"
+          }
+        ]
       }
     ],
     "presets": [
