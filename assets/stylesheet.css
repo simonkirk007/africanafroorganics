@@ -197,3 +197,24 @@ body.search header form.search button.search__button.field__button {
     left: auto;
     right: 0 !important;
 }
+
+
+ .bann-wrapper .slick-arrow {
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: .0bann-wrapper .4;
+  }
+  .bann-wrapper .slick-arrow i {
+    color: #fff;
+  }
+  .bann-wrapper .slick-prev {
+    left: 10px;
+    opacity: .0bann-wrapper .4;
+  }
+  .bann-wrapper .slick-next {
+    right: 10px;
+  }
+  .bann-wrapper .slick-arrow:hover {
+    opacity: 1;
+    cursor: pointer;
+  }

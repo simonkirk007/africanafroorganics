@@ -1,0 +1,90 @@
+<div class="bann-wrapper banner-slider">
+  {%- for block in section.blocks -%}
+    <div class="banner" style="background-image: url({{ block.settings.image | image_url }});">
+      <div class="container">
+        <div class="row align-items-center">
+
+
+          <div class="main-banner-con">
+            <div class="banner-content">
+              <h5>{{ block.settings.sub_heading | escape }}</h5>
+              <h2>{{ block.settings.title | escape }}</h2>
+              {{ block.settings.content }}
+              <div class="banner-btn">
+                <a class="btn-1" href="{{ block.settings.button_left_link }}">{{ block.settings.button_left }}</a>
+                <a class="btn btn-2" href="{{ block.settings.button_right_link }}">{{ block.settings.button_right }}</a>
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </div>
+
+  {%- endfor -%}
+</div>
+
+
+{% schema %}
+  {
+    "name": "Custom Banner slider",
+    "tag": "section",
+    "class": "announcement-bar-section",
+    "blocks": [
+      {
+        "type": "text",
+        "id": "sub_heading",
+        "default": "Collections",
+        "label": "Sub Heading"
+      },
+      {
+        "type": "text",
+        "id": "title",
+        "default": "Collections",
+        "label": "Title"
+      },
+      {
+        "type": "richtext",
+        "id": "content",
+        "default": "<p>Collections</p>",
+        "label": "Content"
+      },
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "t:sections.multicolumn.blocks.column.settings.image.label"
+      }, {
+        "type": "text",
+        "id": "button_left",
+        "default": "Collections",
+        "label": "Button Left Title"
+      }, {
+        "type": "url",
+        "id": "button_left_link",
+        "label": "Button Left Link"
+      }, {
+        "type": "text",
+        "id": "button_right",
+        "default": "Collections",
+        "label": "Button Right Title"
+      }, {
+        "type": "url",
+        "id": "button_right_link",
+        "label": "Button Right Link"
+      }
+    ],
+    "presets": [
+      {
+        "name": "Custom Banner slider",
+        "blocks": [
+          {
+            "type": "column"
+          }, {
+            "type": "column"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
