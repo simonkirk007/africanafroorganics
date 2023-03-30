@@ -2,9 +2,27 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "blocks": {
+        "125d1f2a-ceac-4b11-b140-c724fe9fb1e0": {
+          "type": "column",
+          "settings": {
+            "page_title": "",
+            "banner_img": "shopify:\/\/shop_images\/20230321193149_0-Bnner-web.jpg"
+          }
+        },
+        "7553fad9-5eb4-4ece-8cf5-4f0bc283066b": {
+          "type": "column",
+          "settings": {
+            "page_title": "",
+            "banner_img": "shopify:\/\/shop_images\/20230321193149_1-Bnner-web01.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "125d1f2a-ceac-4b11-b140-c724fe9fb1e0",
+        "7553fad9-5eb4-4ece-8cf5-4f0bc283066b"
+      ],
       "settings": {
-        "page_title": "",
-        "banner_img": "shopify:\/\/shop_images\/20230321193149_0-Bnner-web.jpg"
       }
     },
     "product-grid": {
