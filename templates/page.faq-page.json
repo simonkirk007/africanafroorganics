@@ -3,7 +3,8 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "page_title": ""
+        "page_title": "",
+        "banner_img": "shopify:\/\/shop_images\/20230321193149_0-Bnner-web.jpg"
       }
     },
     "26eb3c69-8450-4ad4-9424-4b38c1439c56": {
