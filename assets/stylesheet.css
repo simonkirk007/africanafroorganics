@@ -222,3 +222,6 @@ body.search header form.search button.search__button.field__button {
   .bann-wrapper .inner-banner {
     min-height: 520px;
   }
+  .collection .slick-arrow {
+    bottom: auto !important;
+  }
