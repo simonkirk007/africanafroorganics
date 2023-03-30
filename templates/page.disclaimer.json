@@ -2,9 +2,27 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "blocks": {
+        "f71b3e85-45b1-483a-8847-ea51f1f62b29": {
+          "type": "column",
+          "settings": {
+            "page_title": "",
+            "banner_img": "shopify:\/\/shop_images\/20230321193149_0-Bnner-web.jpg"
+          }
+        },
+        "c516063f-e06d-4cbe-80ab-6500e4744564": {
+          "type": "column",
+          "settings": {
+            "page_title": "",
+            "banner_img": "shopify:\/\/shop_images\/20230321193149_1-Bnner-web01.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f71b3e85-45b1-483a-8847-ea51f1f62b29",
+        "c516063f-e06d-4cbe-80ab-6500e4744564"
+      ],
       "settings": {
-        "page_title": "",
-        "banner_img": "shopify:\/\/shop_images\/20230321193149_0-Bnner-web.jpg"
       }
     },
     "39ec2912-0af2-4ad9-8f05-49e0a7b456af": {
