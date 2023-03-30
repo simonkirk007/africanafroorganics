@@ -1,51 +1,114 @@
-<div class="banner inner-banner" style="background-image: url({% if section.settings.banner_img !=blank %}{{ section.settings.banner_img | img_url: 'master' }} {% else %}{{ 'main-banner.png' | asset_url }}{% endif %});">
+<div class="inner-banner-wrap">
+  {%- for block in section.blocks -%}
+  <div class="banner inner-banner" style="background-image: url({% if block.settings.banner_img !=blank %}{{ block.settings.banner_img | img_url: 'master' }} {% else %}{{ 'main-banner.png' | asset_url }}{% endif %});">
     <div class="container">
-        <div class="row align-items-center">
-            <div class="col-12 col-lg-12">
-                <div class="banner-content">
-                  {% if section.settings.page_title !=blank %}
-                    <h2>{{ section.settings.page_title }}</h2>
-                  {% else %}
-                    <h2>{{ page.title | escape }}</h2>
-                  {% endif %}
-                </div>
-            </div>
+      <div class="row align-items-center">
+        <div class="col-12 col-lg-12">
+          <div class="banner-content">
+            {% if block.settings.page_title != blank %}
+              <h2>{{ block.settings.page_title }}</h2>
+            {% else %}
+              <h2>{{ page.title | escape }}</h2>
+            {% endif %}
+          </div>
         </div>
+      </div>
     </div>
+  </div>
+{%- endfor -%}
+
 </div>
 
+
+
 {% comment %}
-<div class="page-width page-width--narrow section-{{ section.id }}-padding">
-  <h1 class="main-page-title page-title h0">
-    {{ page.title | escape }}
-  </h1>
-  <div class="rte">
-    {{ page.content }}
+<div class="banner inner-banner" style="background-image: url({% if section.settings.banner_img !=blank %}{{ section.settings.banner_img | img_url: 'master' }} {% else %}{{ 'main-banner.png' | asset_url }}{% endif %});">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-12 col-lg-12">
+        <div class="banner-content">
+          {% if section.settings.page_title != blank %}
+            <h2>{{ section.settings.page_title }}</h2>
+          {% else %}
+            <h2>{{ page.title | escape }}</h2>
+          {% endif %}
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+
+
+<div class="page-width page-width--narrow section-{{ section.id }}-padding">
+<h1 class="main-page-title page-title h0">
+{{ page.title | escape }}
+</h1>
+<div class="rte">
+{{ page.content }}
+</div>
 </div>  
+
+
+
+  {
+    "name": "t:sections.main-page.name",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+      {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      }, {
+        "type": "text",
+        "id": "page_title",
+        "label": "Page Title"
+      }, {
+        "type": "image_picker",
+        "id": "banner_img",
+        "label": "Banner Image"
+      }
+    ]
+  }
+
+
 {% endcomment %}
 
-
 {% schema %}
-{
-  "name": "t:sections.main-page.name",
-  "tag": "section",
-  "class": "section",
-  "settings": [
-    {
-      "type": "header",
-      "content": "t:sections.all.padding.section_padding_heading"
-    },
-    {
-      "type": "text",
-      "id": "page_title",
-      "label": "Page Title"
-    },
-    {
-      "type": "image_picker",
-      "id": "banner_img",
-      "label": "Banner Image"
-    }
-  ]
-}
+  {
+    "name": "t:sections.main-page.name",
+    "tag": "section",
+    "class": "section",
+    "blocks": [
+      {
+        "type": "column",
+        "name": "t:sections.multicolumn.blocks.column.name",
+        "settings": [
+          {
+            "type": "header",
+            "content": "t:sections.all.padding.section_padding_heading"
+          }, {
+            "type": "text",
+            "id": "page_title",
+            "label": "Page Title"
+          }, {
+            "type": "image_picker",
+            "id": "banner_img",
+            "label": "Banner Image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "t:sections.main-page.name",
+        "blocks": [
+          {
+            "type": "column"
+          }, {
+            "type": "column"
+          }
+        ]
+      }
+    ]
+  }
 {% endschema %}
