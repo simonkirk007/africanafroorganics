@@ -219,3 +219,6 @@ body.search header form.search button.search__button.field__button {
     opacity: 1;
     cursor: pointer;
   }
+  .bann-wrapper .inner-banner {
+    min-height: 520px;
+  }
