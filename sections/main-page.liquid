@@ -4,7 +4,7 @@
   {% if section.blocks !=blank %}
 
   {%- for block in section.blocks -%}
-  <div class="banner inner-banner" style="background-image: url({% if block.settings.banner_img !=blank %}{{ block.settings.banner_img | img_url: 'master' }} {% else %}{{ 'main-banner.png' | asset_url }}{% endif %});">
+  <div class="banner inner-banner" style="background-image: url({% if block.settings.banner_img !=blank %}{{ block.settings.banner_img | img_url: 'master' }} {% else %}{{ 'inner-new-banner.jpg' | asset_url }}{% endif %});">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-12 col-lg-12">
@@ -21,7 +21,7 @@
   </div>
 {%- endfor -%}
 {% else %}
-<div class="banner inner-banner" style="background-image: url({% if section.settings.banner_img !=blank %}{{ section.settings.banner_img | img_url: 'master' }} {% else %}{{ 'main-banner.png' | asset_url }}{% endif %});">
+<div class="banner inner-banner" style="background-image: url({% if section.settings.banner_img !=blank %}{{ section.settings.banner_img | img_url: 'master' }} {% else %}{{ 'inner-new-banner.jpg' | asset_url }}{% endif %});">
   <div class="container">
     <div class="row align-items-center">
       <div class="col-12 col-lg-12">
