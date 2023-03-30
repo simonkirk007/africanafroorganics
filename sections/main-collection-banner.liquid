@@ -9,10 +9,10 @@
       <div class="row align-items-center">
         <div class="col-12 col-lg-12">
           <div class="banner-content">
-            {% if block.settings.page_title != blank %}
-              <h2>{{ block.settings.page_title }}</h2>
+            {% if section.settings.page_title !=blank %}
+              <h2>{{ section.settings.page_title }}</h2>
             {% else %}
-              <h2>{{ page.title | escape }}</h2>
+              <h2>{{- collection.title | escape -}}</h2>
             {% endif %}
           </div>
         </div>
@@ -26,10 +26,10 @@
     <div class="row align-items-center">
       <div class="col-12 col-lg-12">
         <div class="banner-content">
-          {% if section.settings.page_title != blank %}
+          {% if section.settings.page_title !=blank %}
             <h2>{{ section.settings.page_title }}</h2>
           {% else %}
-            <h2>{{ page.title | escape }}</h2>
+            <h2>{{- collection.title | escape -}}</h2>
           {% endif %}
         </div>
       </div>
