@@ -1,4 +1,4 @@
-<div class="inner-banner-wrap">
+<div class="bann-wrapper">
   {%- for block in section.blocks -%}
   <div class="banner inner-banner" style="background-image: url({% if block.settings.banner_img !=blank %}{{ block.settings.banner_img | img_url: 'master' }} {% else %}{{ 'main-banner.png' | asset_url }}{% endif %});">
     <div class="container">
