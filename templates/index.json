@@ -17,6 +17,32 @@
     "8c17c07b-edcd-4369-8891-af976a43e45c": {
       "type": "custom-banner-slider",
       "blocks": {
+        "template--18227249381658__8c17c07b-edcd-4369-8891-af976a43e45c-1679987321a4cdea71-1": {
+          "type": "column",
+          "settings": {
+            "sub_heading": "WELCOME TO AFRICAN AFRO",
+            "title": "Natural Hair Care Products",
+            "content": "<p>For The Natural African Beauty<\/p>",
+            "image": "shopify:\/\/shop_images\/20230321193149_1-Bnner-web01.jpg",
+            "button_left": "SHOP NOW",
+            "button_left_link": "shopify:\/\/collections\/all",
+            "button_right": "Contact Us",
+            "button_right_link": "shopify:\/\/pages\/contact-us"
+          }
+        },
+        "0d1a15d4-1533-46f7-8667-bcf972994a8f": {
+          "type": "column",
+          "settings": {
+            "sub_heading": "WELCOME TO AFRICAN AFRO",
+            "title": "Natural Hair Care Products",
+            "content": "<p>For The Natural African Beauty<\/p>",
+            "image": "shopify:\/\/shop_images\/20230404194138_1-banner-00.jpg",
+            "button_left": "Shop Now",
+            "button_left_link": "shopify:\/\/collections\/all",
+            "button_right": "Contact Us",
+            "button_right_link": "shopify:\/\/pages\/contact-us"
+          }
+        },
         "b628977e-93a1-43d0-a0db-52c8325ae057": {
           "type": "column",
           "settings": {
@@ -42,25 +68,13 @@
             "button_right": "Contact Us",
             "button_right_link": "shopify:\/\/pages\/contact-us"
           }
-        },
-        "template--18227249381658__8c17c07b-edcd-4369-8891-af976a43e45c-1679987321a4cdea71-1": {
-          "type": "column",
-          "settings": {
-            "sub_heading": "WELCOME TO AFRICAN AFRO",
-            "title": "Natural Hair Care Products",
-            "content": "<p>For The Natural African Beauty<\/p>",
-            "image": "shopify:\/\/shop_images\/20230321193149_1-Bnner-web01.jpg",
-            "button_left": "SHOP NOW",
-            "button_left_link": "shopify:\/\/collections\/all",
-            "button_right": "Contact Us",
-            "button_right_link": "shopify:\/\/pages\/contact-us"
-          }
         }
       },
       "block_order": [
+        "template--18227249381658__8c17c07b-edcd-4369-8891-af976a43e45c-1679987321a4cdea71-1",
+        "0d1a15d4-1533-46f7-8667-bcf972994a8f",
         "b628977e-93a1-43d0-a0db-52c8325ae057",
-        "template--18227249381658__8c17c07b-edcd-4369-8891-af976a43e45c-1679987321a4cdea71-0",
-        "template--18227249381658__8c17c07b-edcd-4369-8891-af976a43e45c-1679987321a4cdea71-1"
+        "template--18227249381658__8c17c07b-edcd-4369-8891-af976a43e45c-1679987321a4cdea71-0"
       ],
       "settings": {
       }
