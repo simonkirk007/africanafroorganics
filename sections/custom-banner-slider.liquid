@@ -1,6 +1,6 @@
-<div class="bann-wrapper banner-slider {% case section.settings.show_section %}{% when "center" %}textalign-center{% when "left" %} textalign-left{% when "right" %}textalign-right{% endcase %}">
+<div class="bann-wrapper banner-slider ">
   {%- for block in section.blocks -%}
-    <div class="banner" style="background-image: url({{ block.settings.image | image_url }});">
+    <div class="banner {% case block.settings.show_section %}{% when "center" %}textalign-center{% when "left" %} textalign-left{% when "right" %}textalign-right{% endcase %}" style="background-image: url({{ block.settings.image | image_url }});">
       <div class="container">
         <div class="row align-items-center">
 
