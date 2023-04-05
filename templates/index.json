@@ -20,6 +20,7 @@
         "template--18227249381658__8c17c07b-edcd-4369-8891-af976a43e45c-1679987321a4cdea71-1": {
           "type": "column",
           "settings": {
+            "show_section": "left",
             "sub_heading": "WELCOME TO AFRICAN AFRO",
             "title": "For The Natural African Beauty",
             "content": "<p>Natural Hair Care Products<\/p>",
@@ -33,6 +34,7 @@
         "0d1a15d4-1533-46f7-8667-bcf972994a8f": {
           "type": "column",
           "settings": {
+            "show_section": "left",
             "sub_heading": "WELCOME TO AFRICAN AFRO",
             "title": "For The Natural African Beauty",
             "content": "<p>For The Natural African Beauty<\/p>",
@@ -46,6 +48,7 @@
         "74a30bf6-07d6-4700-9ed1-51f26cef2b3e": {
           "type": "column",
           "settings": {
+            "show_section": "left",
             "sub_heading": "WELCOME TO AFRICAN AFRO",
             "title": "Natural Hair Care Products",
             "content": "<p>For The Natural African Beauty<\/p>",
@@ -59,6 +62,7 @@
         "2a11d906-ddc7-4c23-abb5-31cabfc12428": {
           "type": "column",
           "settings": {
+            "show_section": "center",
             "sub_heading": "WELCOME TO AFRICAN AFRO",
             "title": "For The Natural African Beauty",
             "content": "<p>For The Natural African Beauty<\/p>",
@@ -72,6 +76,7 @@
         "b628977e-93a1-43d0-a0db-52c8325ae057": {
           "type": "column",
           "settings": {
+            "show_section": "left",
             "sub_heading": "WELCOME TO AFRICAN AFRO",
             "title": "Natural Hair Care Products",
             "content": "<p>For The Natural African Beauty<\/p>",
@@ -85,6 +90,7 @@
         "template--18227249381658__8c17c07b-edcd-4369-8891-af976a43e45c-1679987321a4cdea71-0": {
           "type": "column",
           "settings": {
+            "show_section": "left",
             "sub_heading": "WELCOME TO AFRICAN AFRO",
             "title": "Natural Hair Care Products",
             "content": "<p>For The Natural African Beauty<\/p>",
