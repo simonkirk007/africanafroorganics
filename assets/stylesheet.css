@@ -225,3 +225,16 @@ body.search header form.search button.search__button.field__button {
   body.collection .slick-arrow {
     bottom: auto !important;
   }
+  .textalign-center .main-banner-con .banner-content {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .textalign-center .main-banner-con .banner-content h5, .textalign-center .main-banner-con .banner-content p {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .textalign-center .main-banner-con .banner-content p {
+    display: table;
+  }
