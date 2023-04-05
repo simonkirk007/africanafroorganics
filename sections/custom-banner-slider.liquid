@@ -1,4 +1,4 @@
-<div class="bann-wrapper banner-slider">
+<div class="bann-wrapper banner-slider {% case section.settings.show_section %}{% when "center" %}textalign-center{% when "left" %} textalign-left{% when "right" %}textalign-right{% endcase %}">
   {%- for block in section.blocks -%}
     <div class="banner" style="background-image: url({{ block.settings.image | image_url }});">
       <div class="container">
@@ -37,6 +37,24 @@
         "name": "t:sections.multicolumn.blocks.column.name",
         "settings": [
           {
+            "type": "select",
+            "id": "show_section",
+            "label": "When should this section be shown?",
+            "options": [
+              {
+                "value": "center",
+                "label": "Text Center"
+              }, {
+                "value": "left",
+                "label": "Text Left"
+              }, {
+                "value": "right",
+                "label": "Text Right"
+              }
+            ],
+            "default": "left"
+          },
+          {
             "type": "text",
             "id": "sub_heading",
             "default": "Collections",
@@ -53,8 +71,7 @@
             "id": "content",
             "default": "<p>Collections</p>",
             "label": "Content"
-          },
-          {
+          }, {
             "type": "image_picker",
             "id": "image",
             "label": "t:sections.multicolumn.blocks.column.settings.image.label"
